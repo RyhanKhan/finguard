@@ -1,0 +1,86 @@
+{
+  "milestone": "8B-1",
+  "date": "2026-10-28",
+  "published_source_url": "https://github.com/RyhanKhan/finguard",
+  "published_baseline_commit": "5054fdf5efe059f07ba63401a852d5c6005863ac",
+  "changed_files": [
+    "README.md",
+    "docs/deployment_handoff.md",
+    "frontend/next.config.ts",
+    "frontend/tests/deployment-config.test.ts",
+    "frontend/vercel.json",
+    "release/commit_paths.txt",
+    "release/deployment_preparation.json",
+    "release/source_inventory.json"
+  ],
+  "local_preparation_only": true,
+  "pushed": false,
+  "cloud_deployed": false,
+  "deployment_urls": [],
+  "provider_authentication": "No CLI/connected tool, environment credential or standard auth file available; browser login state unverified",
+  "render_configuration": {
+    "runtime": "Docker",
+    "source_branch": "main",
+    "root": ".",
+    "dockerfile": "./Dockerfile",
+    "architecture": "linux/amd64",
+    "port": 10000,
+    "bind": "0.0.0.0",
+    "uid_gid": "10001:10001",
+    "liveness": "/health/live",
+    "fraud_readiness": "/health/ready",
+    "credit_readiness": "/v1/credit/ready",
+    "host_and_cors": "Actual assigned backend hostname and stable frontend HTTPS origin required; not yet available",
+    "model_provisioning": "8 unique fixed-name secret files at /etc/secrets, private deterministic temporary canonical assembly, existing digest/hash/semantic verification unchanged"
+  },
+  "vercel_configuration": {
+    "root": "frontend",
+    "node": "24.x",
+    "install": "npm ci",
+    "build": "npm run build",
+    "framework": "nextjs",
+    "API_variable": "NEXT_PUBLIC_API_BASE_URL, actual backend HTTPS origin at build time",
+    "VERCEL_guard": "Rejects missing, HTTP, common loopback/local origins and credential/path/query/fragment URLs; system environment variables must be exposed"
+  },
+  "tests": {
+    "frontend_unit_tests_passed": 86,
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "format": "PASS",
+    "cloud_configuration_production_build": "PASS local simulation, reserved test-only HTTPS origin, no localhost fallback in client JS",
+    "local_browser_production_build": "PASS explicit local API origin",
+    "production_browser_journeys_passed": 11,
+    "browser_retries": 0,
+    "browser_duration_seconds": 14.494934,
+    "backend_synthetic_smoke": {
+      "synthetic_smoke": {
+        "services": "fraud and credit ready",
+        "fraud_synthetic_score": 0.0006554509184609327,
+        "fraud_action": "approve",
+        "credit_synthetic_raw_score": 0.24888492804155674,
+        "credit_band": 4,
+        "credit_reconstruction_verified": true,
+        "hypothetical_loss_ntd": 1000.0,
+        "invalid_inputs_rejected": true
+      },
+      "all_8_portable_file_hashes_unchanged": true,
+      "all_19_contributions_verified": true,
+      "max_contribution_difference_vs_macos_arm64": 5.551115123125783e-17,
+      "reconstruction": {
+        "baseline_plus_contributions": -1.1045682117368512,
+        "margin_error": 4.440892098500626e-16,
+        "probability_from_margin": 0.24888492804155662,
+        "probability_error": 1.1102230246251565e-16,
+        "verified": true
+      },
+      "container_architecture": "x86_64",
+      "container_uid": "10001",
+      "QA_budget_note": "Elevated explicitly for regression runs; production image default remains 120/minute"
+    },
+    "docker_rebuild": "NOT NEEDED: Dockerfile, runtime dependency locks and backend source unchanged; reused verified local AMD64 image"
+  },
+  "model_hosting_status": "No upload authorization; fraud ODbL/DbCL hosting question remains unresolved; owner credit provenance/attribution confirmation pending",
+  "pricing": "No plan selected, no charges authorized or incurred",
+  "cloud_readiness": "Account/team/project/deployment/plan authorization and actual-domain/secret-file checks remain pending",
+  "preserved": "Original research, original Git, frozen payloads/catalog and previous release candidates unchanged"
+}

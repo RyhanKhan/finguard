@@ -2,7 +2,7 @@
 
 A portfolio research application for inspecting fraud detection, credit risk and the decisions built around model scores. A Next.js dashboard connects to a FastAPI backend that serves two frozen LightGBM models with verified, separately versioned inference contracts.
 
-**Source-only release preparation candidate.** No repository or live deployment has been published. A project software license has not been selected. **This source alone cannot perform live model inference: approved private model bundles are required and are not distributed here.** Static historical results and screenshots can be explored without models; missing models produce explicit unavailable states, never simulated predictions.
+**Published source:** [RyhanKhan/finguard](https://github.com/RyhanKhan/finguard). The interactive cloud demo is not deployed yet. A project software license has not been selected. **This source alone cannot perform live model inference: approved private model bundles are required and are not distributed here.** Static historical results and screenshots can be explored without models; missing models produce explicit unavailable states, never simulated predictions.
 
 ## Fraud Detection
 
@@ -147,7 +147,7 @@ Fraud is a historical, imbalanced transaction task with temporal dependence, ups
 
 ## Portfolio launch handoff
 
-The backend launcher supports the platform PORT, exact production Host/CORS, bounded requests and optional fixed-name private Render secret files. See [deployment instructions](docs/deployment_handoff.md) and the [A/B/C owner checklist](docs/publication_plan.md). No cloud deployment or model upload has occurred. Root LICENSE selection is optional.
+The backend launcher supports the platform PORT, exact production Host/CORS, bounded requests and optional fixed-name private Render secret files. Vercel builds require an explicit HTTPS `NEXT_PUBLIC_API_BASE_URL` and reject loopback/default-local configuration. See [deployment instructions](docs/deployment_handoff.md) and the [A/B/C owner checklist](docs/publication_plan.md). No cloud deployment or model upload has occurred. Root LICENSE selection is optional.
 
 ## Distribution and license notes
 

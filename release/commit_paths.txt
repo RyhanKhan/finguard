@@ -93,12 +93,14 @@ frontend/tests/browser/release.spec.ts
 frontend/tests/credit-api.test.ts
 frontend/tests/credit-fixtures.ts
 frontend/tests/credit-workspace.test.tsx
+frontend/tests/deployment-config.test.ts
 frontend/tests/features.test.ts
 frontend/tests/fixtures.ts
 frontend/tests/history.test.tsx
 frontend/tests/scoring.test.tsx
 frontend/tests/setup.ts
 frontend/tsconfig.json
+frontend/vercel.json
 frontend/vitest.config.ts
 notices/npm/@adobe/css-tools/LICENSE
 notices/npm/@alloc/quick-lru/license
@@ -369,6 +371,7 @@ release/commit_paths.txt
 release/container_advisories.json
 release/container_packages.json
 release/dependency_scan_summary.json
+release/deployment_preparation.json
 release/docker_base.json
 release/license_text_inventory.json
 release/preparation_allowlist.json
