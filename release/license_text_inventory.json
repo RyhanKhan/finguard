@@ -1,0 +1,1922 @@
+{
+  "scope": "Actual copied notice texts only; not complete binary-distribution clearance",
+  "files": {
+    "notices/python/annotated-types-0.8.0/licenses/LICENSE": {
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/anyio-4.15.1/licenses/LICENSE": {
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "anyio",
+      "version": "4.15.1",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/click-8.5.0/licenses/LICENSE.txt": {
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "click",
+      "version": "8.5.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/h11-0.16.0/licenses/LICENSE.txt": {
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "h11",
+      "version": "0.16.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/idna-3.20/licenses/LICENSE.md": {
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "idna",
+      "version": "3.20",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/lightgbm-4.6.0/licenses/LICENSE": {
+      "sha256": "b5cb7ff7859e7d282d98fc43ab081b0dda5dc659dc3385cf65740c759a7e6a6c",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "lightgbm",
+      "version": "4.6.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/numpy-2.2.6/LICENSE.txt": {
+      "sha256": "b4ae62887f4dd6e9430b1a8d7017a3ba84c5d7aa630b9d17ed6f25c21b0ec5b4",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "numpy",
+      "version": "2.2.6",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/pandas-2.2.3/LICENSE": {
+      "sha256": "1dea2e80ed1cbd0233f84cee4486b29689f133babaccf4d295e51c43051f3216",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "pandas",
+      "version": "2.2.3",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/pydantic-2.11.5/licenses/LICENSE": {
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "pydantic",
+      "version": "2.11.5",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/pydantic_core-2.33.2/licenses/LICENSE": {
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "pydantic_core",
+      "version": "2.33.2",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/python-dateutil-3.0.0/licenses/LICENSE": {
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "python-dateutil",
+      "version": "3.0.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/pytz-2026.5/LICENSE.txt": {
+      "sha256": "be8b1a37ebe26c592a90f6c0eb33103a7f383ce2f4d7498c0af9a526990a07b8",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "pytz",
+      "version": "2026.5",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/scipy-1.14.1/LICENSE.txt": {
+      "sha256": "3b05dc069af17a3e112235cff907203272237bc345722cd1e50c192062ae050a",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "scipy",
+      "version": "1.14.1",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/six-1.17.0/LICENSE": {
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "six",
+      "version": "1.17.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/threadpoolctl-3.7.0/licenses/LICENSE": {
+      "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "threadpoolctl",
+      "version": "3.7.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/typing-inspection-0.4.4/licenses/LICENSE": {
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "typing-inspection",
+      "version": "0.4.4",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/typing_extensions-4.16.0/licenses/LICENSE": {
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "typing_extensions",
+      "version": "4.16.0",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/tzdata-2026.5/licenses/LICENSE": {
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "tzdata",
+      "version": "2026.5",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/tzdata-2026.5/licenses/licenses/LICENSE_APACHE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "tzdata",
+      "version": "2026.5",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/python/uvicorn-0.34.3/licenses/LICENSE.md": {
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "source": "Installed locked macOS wheel license/notice file; not a wheel or model payload",
+      "package": "uvicorn",
+      "version": "0.34.3",
+      "scope": "macOS runtime notice text; target Linux wheel bundle review remains separate"
+    },
+    "notices/npm/@adobe/css-tools/LICENSE": {
+      "sha256": "326ff3850062286003ff4cbdaa8f61764e128f9a6532431bccf97e4e2bd75059",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@adobe/css-tools",
+      "version": "4.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@alloc/quick-lru/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@alloc/quick-lru",
+      "version": "5.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@asamuzakjp/css-color/LICENSE": {
+      "sha256": "bd4539377980dd797fc6a51d90e664e52b2b2625b2158f01d4c68b5fe107eacb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@asamuzakjp/css-color",
+      "version": "7.1.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@asamuzakjp/css-color/lru-cache/LICENSE.md": {
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@asamuzakjp/css-color/node_modules/lru-cache",
+      "version": "11.5.3",
+      "declared_license": "BlueOak-1.0.0"
+    },
+    "notices/npm/@asamuzakjp/dom-selector/LICENSE": {
+      "sha256": "7cdf9db3b91cc77b9ec947ad0c7126140f00e34528b67c3a58e9fc1a98055e14",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@asamuzakjp/dom-selector",
+      "version": "10.0.4",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@asamuzakjp/dom-selector/lru-cache/LICENSE.md": {
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@asamuzakjp/dom-selector/node_modules/lru-cache",
+      "version": "11.5.3",
+      "declared_license": "BlueOak-1.0.0"
+    },
+    "notices/npm/@babel/code-frame/LICENSE": {
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@babel/code-frame",
+      "version": "7.29.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@babel/helper-validator-identifier/LICENSE": {
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@babel/helper-validator-identifier",
+      "version": "7.29.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@babel/runtime/LICENSE": {
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@babel/runtime",
+      "version": "7.29.10",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@bramus/specificity/LICENSE": {
+      "sha256": "ae842a63dd9bc829c95a2ec22dda25a08e422a368b71dbca67a45cde7c4a4b81",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@bramus/specificity",
+      "version": "2.4.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@cacheable/memory/LICENSE": {
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@cacheable/memory",
+      "version": "2.2.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@cacheable/utils/LICENSE": {
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@cacheable/utils",
+      "version": "2.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@csstools/color-helpers/LICENSE.md": {
+      "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/color-helpers",
+      "version": "6.1.2",
+      "declared_license": "MIT-0"
+    },
+    "notices/npm/@csstools/css-calc/LICENSE.md": {
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/css-calc",
+      "version": "3.4.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@csstools/css-color-parser/LICENSE.md": {
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/css-color-parser",
+      "version": "4.2.6",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@csstools/css-parser-algorithms/LICENSE.md": {
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/css-parser-algorithms",
+      "version": "4.0.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@csstools/css-syntax-patches-for-csstree/LICENSE.md": {
+      "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/css-syntax-patches-for-csstree",
+      "version": "1.1.15",
+      "declared_license": "MIT-0"
+    },
+    "notices/npm/@csstools/css-tokenizer/LICENSE.md": {
+      "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@csstools/css-tokenizer",
+      "version": "4.0.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@eslint-community/eslint-utils/LICENSE": {
+      "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint-community/eslint-utils",
+      "version": "4.10.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@eslint-community/eslint-utils/eslint-visitor-keys/LICENSE": {
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys",
+      "version": "3.4.3",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@eslint-community/regexpp/LICENSE": {
+      "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint-community/regexpp",
+      "version": "4.12.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@eslint/config-array/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/config-array",
+      "version": "0.23.5",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@eslint/config-helpers/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/config-helpers",
+      "version": "0.7.0",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@eslint/core/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/core",
+      "version": "1.2.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@eslint/js/LICENSE": {
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/js",
+      "version": "10.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@eslint/object-schema/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/object-schema",
+      "version": "3.0.5",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@eslint/plugin-kit/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@eslint/plugin-kit",
+      "version": "0.7.3",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@exodus/bytes/LICENSE": {
+      "sha256": "dbffd380d59504ba19fcf87ff5a1a33c37edf66d5b09966b0ad5368ab87bc2af",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@exodus/bytes",
+      "version": "1.16.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@humanfs/core/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@humanfs/core",
+      "version": "0.19.2",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@humanfs/node/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@humanfs/node",
+      "version": "0.16.8",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@humanwhocodes/module-importer/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@humanwhocodes/module-importer",
+      "version": "1.0.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@humanwhocodes/retry/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@humanwhocodes/retry",
+      "version": "0.4.3",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@img/colour/LICENSE.md": {
+      "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@img/colour",
+      "version": "1.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@img/sharp-darwin-arm64/LICENSE": {
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@img/sharp-darwin-arm64",
+      "version": "0.35.5",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@jridgewell/gen-mapping/LICENSE": {
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@jridgewell/remapping/LICENSE": {
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@jridgewell/remapping",
+      "version": "2.3.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@jridgewell/resolve-uri/LICENSE": {
+      "sha256": "b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@jridgewell/sourcemap-codec/LICENSE": {
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@jridgewell/trace-mapping/LICENSE": {
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@keyv/bigmap/LICENSE": {
+      "sha256": "f18cad8d98d4454ad42c33f1950d642cd3b939f2ccd3c36710fa8f50842cacc0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@keyv/bigmap",
+      "version": "1.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@keyv/serialize/LICENSE": {
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@keyv/serialize",
+      "version": "1.1.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@next/eslint-plugin-next/@eslint-community/eslint-utils/LICENSE": {
+      "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@next/eslint-plugin-next/node_modules/@eslint-community/eslint-utils",
+      "version": "4.9.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@next/eslint-plugin-next/eslint-visitor-keys/LICENSE": {
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@next/eslint-plugin-next/node_modules/eslint-visitor-keys",
+      "version": "3.4.3",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@nodelib/fs.scandir/LICENSE": {
+      "sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@nodelib/fs.scandir",
+      "version": "2.1.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@nodelib/fs.stat/LICENSE": {
+      "sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@nodelib/fs.stat",
+      "version": "2.0.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@nodelib/fs.walk/LICENSE": {
+      "sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@nodelib/fs.walk",
+      "version": "1.2.8",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@oxc-project/types/LICENSE": {
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@oxc-project/types",
+      "version": "0.155.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@playwright/test/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@playwright/test",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@playwright/test/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@playwright/test",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@rolldown/pluginutils/LICENSE": {
+      "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@rolldown/pluginutils",
+      "version": "1.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@swc/helpers/LICENSE": {
+      "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@swc/helpers",
+      "version": "0.5.23",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/@tailwindcss/node/LICENSE": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@tailwindcss/node",
+      "version": "4.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@tailwindcss/oxide/LICENSE": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@tailwindcss/oxide",
+      "version": "4.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@tailwindcss/oxide-darwin-arm64/LICENSE": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@tailwindcss/oxide-darwin-arm64",
+      "version": "4.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@tailwindcss/postcss/LICENSE": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@tailwindcss/postcss",
+      "version": "4.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@testing-library/dom/LICENSE": {
+      "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@testing-library/dom",
+      "version": "10.4.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@testing-library/jest-dom/LICENSE": {
+      "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@testing-library/jest-dom",
+      "version": "7.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@testing-library/jest-dom/dom-accessibility-api/LICENSE.md": {
+      "sha256": "0ffe67fe630169de46df2d29dc18f5857b4c98f0f95b0cd9e3c21fef51f9a9b8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api",
+      "version": "0.6.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@testing-library/react/LICENSE": {
+      "sha256": "9680978280d509520d2a7b51e93ffbf7d9ec2b9de4411a6989daba5b659048e0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@testing-library/react",
+      "version": "16.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/aria-query/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/aria-query",
+      "version": "5.0.4",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/chai/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/chai",
+      "version": "5.2.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/deep-eql/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/deep-eql",
+      "version": "4.0.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/esrecurse/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/esrecurse",
+      "version": "4.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/estree/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/estree",
+      "version": "1.0.9",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/json-schema/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/json-schema",
+      "version": "7.0.15",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/node/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/node",
+      "version": "24.19.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/react/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/react",
+      "version": "19.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@types/react-dom/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@types/react-dom",
+      "version": "19.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/eslint-plugin/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/eslint-plugin",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/parser/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/parser",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/project-service/LICENSE": {
+      "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/project-service",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/scope-manager/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/scope-manager",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/tsconfig-utils/LICENSE": {
+      "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/tsconfig-utils",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/type-utils/LICENSE": {
+      "sha256": "f3c51ace7f159b21566d72535e84ff354505ae7ffdca835dac81fcdafbf9e879",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/type-utils",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/types/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/types",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/typescript-estree/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/typescript-estree",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/utils/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/utils",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@typescript-eslint/visitor-keys/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@typescript-eslint/visitor-keys",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@vitest/mocker/LICENSE": {
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@vitest/mocker",
+      "version": "5.0.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@vitest/mocker/magic-string/LICENSE": {
+      "sha256": "1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@vitest/mocker/node_modules/magic-string",
+      "version": "1.4.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/@vitest/spy/LICENSE": {
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/@vitest/spy",
+      "version": "5.0.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/acorn/LICENSE": {
+      "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/acorn",
+      "version": "8.19.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/acorn-jsx/LICENSE": {
+      "sha256": "cfa72b62b9ae173078823a3796b25c027a9071046a263beddf966df67018ce06",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/acorn-jsx",
+      "version": "5.3.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/ajv/LICENSE": {
+      "sha256": "e85e131fa4ed25538ff1f4962ced1fb6f68b079bd9164a790597a0f30b8fd030",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/ajv",
+      "version": "6.15.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/ansi-regex/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/ansi-regex",
+      "version": "5.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/aria-query/LICENSE": {
+      "sha256": "c8df456c7ccba74b959087dff494d4ac2a12dfb0400c08b46b2494a08a000567",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/aria-query",
+      "version": "5.3.0",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/assertion-error/LICENSE": {
+      "sha256": "2130216d5ab4c02134f8247f32999feda0abe1eaf028218baeac445c19ce4cea",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/assertion-error",
+      "version": "2.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/balanced-match/LICENSE.md": {
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/balanced-match",
+      "version": "4.0.4",
+      "declared_license": "MIT"
+    },
+    "notices/npm/baseline-browser-mapping/LICENSE.txt": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/baseline-browser-mapping",
+      "version": "2.11.31",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/bidi-js/LICENSE.txt": {
+      "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/bidi-js",
+      "version": "1.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/brace-expansion/LICENSE": {
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/brace-expansion",
+      "version": "5.0.12",
+      "declared_license": "MIT"
+    },
+    "notices/npm/braces/LICENSE": {
+      "sha256": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/braces",
+      "version": "3.0.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/cacheable/LICENSE": {
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/cacheable",
+      "version": "2.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/caniuse-lite/LICENSE": {
+      "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/caniuse-lite",
+      "version": "1.0.30001819",
+      "declared_license": "CC-BY-4.0"
+    },
+    "notices/npm/chai/LICENSE": {
+      "sha256": "b181da80336ff9dd1043fc8be1a764d7382363433319aa872e4d2cb5ce2a3066",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/chai",
+      "version": "6.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/cross-spawn/LICENSE": {
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/cross-spawn",
+      "version": "7.0.6",
+      "declared_license": "MIT"
+    },
+    "notices/npm/css-tree/LICENSE": {
+      "sha256": "719a251ceca49c057ea90a1152af6546b767ec88e6d573bb6324454267b32c22",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/css-tree",
+      "version": "3.2.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/csstype/LICENSE": {
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/csstype",
+      "version": "3.2.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/data-urls/LICENSE.txt": {
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/data-urls",
+      "version": "8.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/debug/LICENSE": {
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/debug",
+      "version": "4.4.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/decimal.js/LICENCE.md": {
+      "sha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/decimal.js",
+      "version": "10.6.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/deep-is/LICENSE": {
+      "sha256": "f2042f3634c4136d06b5139c9c6aefb81a3a462b514548bc1845953233dfba98",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/deep-is",
+      "version": "0.1.4",
+      "declared_license": "MIT"
+    },
+    "notices/npm/dequal/license": {
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/dequal",
+      "version": "2.0.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/detect-libc/LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/detect-libc",
+      "version": "2.1.2",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/dom-accessibility-api/LICENSE.md": {
+      "sha256": "0ffe67fe630169de46df2d29dc18f5857b4c98f0f95b0cd9e3c21fef51f9a9b8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/dom-accessibility-api",
+      "version": "0.5.16",
+      "declared_license": "MIT"
+    },
+    "notices/npm/enhanced-resolve/LICENSE": {
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/enhanced-resolve",
+      "version": "5.26.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/entities/LICENSE": {
+      "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/entities",
+      "version": "8.1.0",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/es-module-lexer/LICENSE": {
+      "sha256": "8a4b6c44eebfb026d23719a348145a661a555568dbfdc11618ff2d0dd9306b00",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/es-module-lexer",
+      "version": "2.3.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/escape-string-regexp/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/escape-string-regexp",
+      "version": "4.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/eslint/LICENSE": {
+      "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/eslint",
+      "version": "10.13.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/eslint-scope/LICENSE": {
+      "sha256": "d3a724e2ed749f172ff70b62a1d0631b7d4b0ea273782365a3464d4e2d6b6dbd",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/eslint-scope",
+      "version": "9.1.2",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/eslint-visitor-keys/LICENSE": {
+      "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/eslint-visitor-keys",
+      "version": "5.0.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/espree/LICENSE": {
+      "sha256": "26c95937762a3dc17a3934a0a2773c70259ba4bf28dab713c225e4af8eb9d349",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/espree",
+      "version": "11.2.0",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/esquery/license.txt": {
+      "sha256": "ac68116ae73740de4190892f334992e449a124600924ec761e64319d3aac9e6e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/esquery",
+      "version": "1.7.0",
+      "declared_license": "BSD-3-Clause"
+    },
+    "notices/npm/estraverse/LICENSE.BSD": {
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/estraverse",
+      "version": "5.3.0",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/estree-walker/LICENSE": {
+      "sha256": "8a6dcbabe7179f9c8489c08a7d874d0f1e093ae7449e03756ccf87cb9d0e296e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/estree-walker",
+      "version": "3.0.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/esutils/LICENSE.BSD": {
+      "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/esutils",
+      "version": "2.0.3",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/expect-type/LICENSE": {
+      "sha256": "7c6cc83c84eaa249a85bf12fe3eedd831bb50c696e8890b5248223ae68c7b408",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/expect-type",
+      "version": "1.4.0",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/fast-deep-equal/LICENSE": {
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fast-deep-equal",
+      "version": "3.1.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/fast-glob/LICENSE": {
+      "sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fast-glob",
+      "version": "3.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/fast-glob/glob-parent/LICENSE": {
+      "sha256": "2c46f1325bd3822a33c1e2c1e49c18d13127ac00f9c8b3b79196c7a126f73cd9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fast-glob/node_modules/glob-parent",
+      "version": "5.1.2",
+      "declared_license": "ISC"
+    },
+    "notices/npm/fast-json-stable-stringify/LICENSE": {
+      "sha256": "a833d366242c298cf1b10263516572fb8dcbe68eb5072cdcac2b4546e2b4eb36",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fast-json-stable-stringify",
+      "version": "2.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/fast-levenshtein/LICENSE.md": {
+      "sha256": "942a98cb8846a6354266193f173c1354615827fbb7d67f68399599dff12c4d6a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fast-levenshtein",
+      "version": "2.0.6",
+      "declared_license": "MIT"
+    },
+    "notices/npm/fastq/LICENSE": {
+      "sha256": "c3367f6d01a79d368fc4fbb41b3615fcd92f243d6597ab96742f6f976f9325af",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fastq",
+      "version": "1.20.3",
+      "declared_license": "ISC"
+    },
+    "notices/npm/file-entry-cache/LICENSE": {
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/file-entry-cache",
+      "version": "11.1.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/fill-range/LICENSE": {
+      "sha256": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fill-range",
+      "version": "7.1.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/find-up/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/find-up",
+      "version": "5.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/flat-cache/LICENSE": {
+      "sha256": "465e8da349d50d8512e4a0e9b26d2bee50392c394f17edaa3be6e0df7c2b27ad",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/flat-cache",
+      "version": "6.1.23",
+      "declared_license": "MIT"
+    },
+    "notices/npm/flatted/LICENSE": {
+      "sha256": "148718606d34f467fd08a2176bb4c1ab275f999576f779368503d8d3e3642861",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/flatted",
+      "version": "3.4.4",
+      "declared_license": "ISC"
+    },
+    "notices/npm/fsevents/LICENSE": {
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/fsevents",
+      "version": "2.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/glob-parent/LICENSE": {
+      "sha256": "fc68eb8f1c8e1d6b8be50f3c177927e24791cae7dc251e6253a012f37926a30c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/glob-parent",
+      "version": "6.0.2",
+      "declared_license": "ISC"
+    },
+    "notices/npm/graceful-fs/LICENSE": {
+      "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/graceful-fs",
+      "version": "4.2.11",
+      "declared_license": "ISC"
+    },
+    "notices/npm/hashery/LICENSE": {
+      "sha256": "2eef776efe4bae7fcd2d8162ecadf2b0873aae20afac343a936ddb0de3d79253",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/hashery",
+      "version": "1.5.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/hookified/LICENSE": {
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/hookified",
+      "version": "1.15.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/html-encoding-sniffer/LICENSE.txt": {
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/html-encoding-sniffer",
+      "version": "7.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/indent-string/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/indent-string",
+      "version": "4.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/is-extglob/LICENSE": {
+      "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/is-extglob",
+      "version": "2.1.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/is-glob/LICENSE": {
+      "sha256": "4cd903859549d4b20b571041f96dfae1136ed079c476126268f9d7cc1b611150",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/is-glob",
+      "version": "4.0.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/is-number/LICENSE": {
+      "sha256": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/is-number",
+      "version": "7.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/isexe/LICENSE": {
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/isexe",
+      "version": "2.0.0",
+      "declared_license": "ISC"
+    },
+    "notices/npm/jiti/LICENSE": {
+      "sha256": "46231df5a7733c3f52f11b71f3df61813007745b62b09031acfb45fb42d75082",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/jiti",
+      "version": "2.7.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/js-tokens/LICENSE": {
+      "sha256": "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/js-tokens",
+      "version": "4.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/jsdom/LICENSE.txt": {
+      "sha256": "242d37e7cab25cbafc36cc973ee88f9345fddf066afe4f72b7ac3d9ad4e24cce",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/jsdom",
+      "version": "30.1.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/jsdom/lru-cache/LICENSE.md": {
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/jsdom/node_modules/lru-cache",
+      "version": "11.5.3",
+      "declared_license": "BlueOak-1.0.0"
+    },
+    "notices/npm/json-schema-traverse/LICENSE": {
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/json-schema-traverse",
+      "version": "0.4.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/json-stable-stringify-without-jsonify/LICENSE": {
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/json-stable-stringify-without-jsonify",
+      "version": "1.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/keyv/LICENSE": {
+      "sha256": "1f7dca26d2d328c3dbb9b6fe3b15ec3cda08ffe2288e47b73d617454b256f959",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/keyv",
+      "version": "5.6.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/levn/LICENSE": {
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/levn",
+      "version": "0.4.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/lightningcss/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/lightningcss",
+      "version": "1.32.0",
+      "declared_license": "MPL-2.0"
+    },
+    "notices/npm/lightningcss-darwin-arm64/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/lightningcss-darwin-arm64",
+      "version": "1.32.0",
+      "declared_license": "MPL-2.0"
+    },
+    "notices/npm/locate-path/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/locate-path",
+      "version": "6.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/lucide-react/LICENSE": {
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/lucide-react",
+      "version": "1.61.0",
+      "declared_license": "ISC"
+    },
+    "notices/npm/lz-string/LICENSE": {
+      "sha256": "433fc9dfe659dbfb1e91eed8351f13651e97bfa3ac6d03394c3d63f61d4bbc80",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/lz-string",
+      "version": "1.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/magic-string/LICENSE": {
+      "sha256": "1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/magic-string",
+      "version": "0.30.21",
+      "declared_license": "MIT"
+    },
+    "notices/npm/mdn-data/LICENSE": {
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/mdn-data",
+      "version": "2.27.1",
+      "declared_license": "CC0-1.0"
+    },
+    "notices/npm/merge2/LICENSE": {
+      "sha256": "b2590e53ea6e050512c3993bfc746c394bbba9242fd6909245201bdc1dc6862a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/merge2",
+      "version": "1.4.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/micromatch/LICENSE": {
+      "sha256": "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/micromatch",
+      "version": "4.0.8",
+      "declared_license": "MIT"
+    },
+    "notices/npm/min-indent/license": {
+      "sha256": "9638fa87f845af6cecc56fab498c1f74f4a98522d3b53377bedcbdb44b5a8dcc",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/min-indent",
+      "version": "1.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/minimatch/LICENSE.md": {
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/minimatch",
+      "version": "10.2.6",
+      "declared_license": "BlueOak-1.0.0"
+    },
+    "notices/npm/ms/license.md": {
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/ms",
+      "version": "2.1.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/nanoid/LICENSE": {
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/nanoid",
+      "version": "3.3.20",
+      "declared_license": "MIT"
+    },
+    "notices/npm/next/license.md": {
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/next",
+      "version": "16.4.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/next/postcss/LICENSE": {
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/next/node_modules/postcss",
+      "version": "8.5.23",
+      "declared_license": "MIT"
+    },
+    "notices/npm/obug/LICENSE": {
+      "sha256": "ee48679d379ca6b4493d5e231094d85f818dd9be40b1a4f234fb7ff657ee35d9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/obug",
+      "version": "3.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/optionator/LICENSE": {
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/optionator",
+      "version": "0.9.4",
+      "declared_license": "MIT"
+    },
+    "notices/npm/p-limit/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/p-limit",
+      "version": "3.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/p-locate/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/p-locate",
+      "version": "5.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/parse5/LICENSE": {
+      "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/parse5",
+      "version": "8.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/path-exists/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/path-exists",
+      "version": "4.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/path-key/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/path-key",
+      "version": "3.1.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/picocolors/LICENSE": {
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/picocolors",
+      "version": "1.1.1",
+      "declared_license": "ISC"
+    },
+    "notices/npm/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/picomatch",
+      "version": "2.3.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/playwright/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/playwright",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/playwright/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/playwright",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/playwright-core/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/playwright-core",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/playwright-core/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/playwright-core",
+      "version": "1.64.1",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/postcss/LICENSE": {
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/postcss",
+      "version": "8.5.31",
+      "declared_license": "MIT"
+    },
+    "notices/npm/prelude-ls/LICENSE": {
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/prelude-ls",
+      "version": "1.2.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/prettier/LICENSE": {
+      "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/prettier",
+      "version": "3.8.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/pretty-format/LICENSE": {
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/pretty-format",
+      "version": "27.5.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/pretty-format/ansi-styles/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/pretty-format/node_modules/ansi-styles",
+      "version": "5.2.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/qified/LICENSE": {
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/qified",
+      "version": "0.10.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/qified/hookified/LICENSE": {
+      "sha256": "3902e57e73412bd91ba81a47fa2cef45e1729c152c835114c1692cc5e685ddbe",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/qified/node_modules/hookified",
+      "version": "2.2.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/queue-microtask/LICENSE": {
+      "sha256": "d4c2065e2b936e62a4eb400efb4576edec9ca1388a9f78aa288e147275e7bc8b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/queue-microtask",
+      "version": "1.2.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/react/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/react",
+      "version": "19.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/react-dom/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/react-dom",
+      "version": "19.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/react-is/LICENSE": {
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/react-is",
+      "version": "17.0.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/redent/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/redent",
+      "version": "3.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/require-from-string/license": {
+      "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/require-from-string",
+      "version": "2.0.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/reusify/LICENSE": {
+      "sha256": "93a1506953b08ad4874e1cc0971a1d2ac387ca510da91e4d05e460a6c4966fa3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/reusify",
+      "version": "1.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/rolldown/LICENSE": {
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/rolldown",
+      "version": "1.2.15",
+      "declared_license": "MIT"
+    },
+    "notices/npm/run-parallel/LICENSE": {
+      "sha256": "d4c2065e2b936e62a4eb400efb4576edec9ca1388a9f78aa288e147275e7bc8b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/run-parallel",
+      "version": "1.2.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/scheduler/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/scheduler",
+      "version": "0.28.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/semver/LICENSE": {
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/semver",
+      "version": "7.8.5",
+      "declared_license": "ISC"
+    },
+    "notices/npm/sharp/LICENSE": {
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/sharp",
+      "version": "0.35.5",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/shebang-command/license": {
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/shebang-command",
+      "version": "2.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/shebang-regex/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/shebang-regex",
+      "version": "3.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/source-map-js/LICENSE": {
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/source-map-js",
+      "version": "1.2.2",
+      "declared_license": "BSD-3-Clause"
+    },
+    "notices/npm/std-env/LICENCE": {
+      "sha256": "a6f36438e46fb911859f3b9c4cad045ba64e1af3d8f4512c60258fa2d7552d28",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/std-env",
+      "version": "4.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/strip-indent/license": {
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/strip-indent",
+      "version": "3.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/styled-jsx/license.md": {
+      "sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/styled-jsx",
+      "version": "5.1.6",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tailwindcss/LICENSE": {
+      "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tailwindcss",
+      "version": "4.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tapable/LICENSE": {
+      "sha256": "824ef6c33ae5ecbbab65d37f2b37da2bfc81d76cf7676ec0f59d00a0a38bdb75",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tapable",
+      "version": "2.3.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tinybench/LICENSE": {
+      "sha256": "cebc084d54e6dd99e53292ddb4bc1cdb63d9bfcd9ce438fe3aa6eb106d79e2ea",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tinybench",
+      "version": "6.2.2",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tinyexec/LICENSE": {
+      "sha256": "f95f668fe64081ddb4153b322e34fdd719b991285ed08177d5ad7133b7988d92",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tinyexec",
+      "version": "1.3.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tinyglobby/LICENSE": {
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tinyglobby",
+      "version": "0.2.17",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tinyglobby/fdir/LICENSE": {
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tinyglobby/node_modules/fdir",
+      "version": "6.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tinyglobby/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tinyglobby/node_modules/picomatch",
+      "version": "4.0.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tldts/LICENSE": {
+      "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tldts",
+      "version": "7.4.19",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tldts-core/LICENSE": {
+      "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tldts-core",
+      "version": "7.4.19",
+      "declared_license": "MIT"
+    },
+    "notices/npm/to-regex-range/LICENSE": {
+      "sha256": "e7d1fee7347ffddccc5fd03327ffdb50f8c112be0d5016d62388a92c4ae6e7a9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/to-regex-range",
+      "version": "5.0.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tough-cookie/LICENSE": {
+      "sha256": "22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tough-cookie",
+      "version": "6.0.2",
+      "declared_license": "BSD-3-Clause"
+    },
+    "notices/npm/tr46/LICENSE.md": {
+      "sha256": "499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tr46",
+      "version": "7.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/ts-api-utils/LICENSE.md": {
+      "sha256": "76c9d5f5ea942054715c026f33f8717c9e24603196a3737b8899afa216bcbdab",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/ts-api-utils",
+      "version": "2.5.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/tslib/LICENSE.txt": {
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/tslib",
+      "version": "2.8.1",
+      "declared_license": "0BSD"
+    },
+    "notices/npm/type-check/LICENSE": {
+      "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/type-check",
+      "version": "0.4.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/typescript/LICENSE.txt": {
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/typescript",
+      "version": "5.9.3",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/typescript-eslint/LICENSE": {
+      "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/typescript-eslint",
+      "version": "8.72.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/undici/LICENSE": {
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/undici",
+      "version": "8.12.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/undici-types/LICENSE": {
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/undici-types",
+      "version": "7.24.6",
+      "declared_license": "MIT"
+    },
+    "notices/npm/uri-js/LICENSE": {
+      "sha256": "0af366eff4c01ec147c9c61ea9e8ffad64a4294754c9d79355f3fd1b97cb2fb9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/uri-js",
+      "version": "4.4.1",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/vite/LICENSE.md": {
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vite",
+      "version": "8.3.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/vite/lightningcss/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vite/node_modules/lightningcss",
+      "version": "1.33.0",
+      "declared_license": "MPL-2.0"
+    },
+    "notices/npm/vite/lightningcss-darwin-arm64/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vite/node_modules/lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "declared_license": "MPL-2.0"
+    },
+    "notices/npm/vite/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vite/node_modules/picomatch",
+      "version": "4.0.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/vitest/LICENSE.md": {
+      "sha256": "78fbac9e571c2ee260deb2a1941a8a18f0a85e3f39c23d08e2dcee6da4841998",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vitest",
+      "version": "5.0.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/vitest/magic-string/LICENSE": {
+      "sha256": "1cbe51b907662f6cb1492b16c359384a595180bf0e4d101603ed525e75c4e484",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vitest/node_modules/magic-string",
+      "version": "1.4.3",
+      "declared_license": "MIT"
+    },
+    "notices/npm/vitest/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/vitest/node_modules/picomatch",
+      "version": "4.0.7",
+      "declared_license": "MIT"
+    },
+    "notices/npm/w3c-xmlserializer/LICENSE.md": {
+      "sha256": "ab654de803cdaa9e2819ab2e934bdf7f757e308649ec231d78e80e92425cdc34",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/w3c-xmlserializer",
+      "version": "6.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/webidl-conversions/LICENSE.md": {
+      "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/webidl-conversions",
+      "version": "8.0.1",
+      "declared_license": "BSD-2-Clause"
+    },
+    "notices/npm/whatwg-mimetype/LICENSE.txt": {
+      "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/whatwg-mimetype",
+      "version": "5.0.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/whatwg-url/LICENSE.txt": {
+      "sha256": "db480f236292a093e77a83c35431a8496624e1e664a3547768a9ce2bdde39877",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/whatwg-url",
+      "version": "17.3.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/which/LICENSE": {
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/which",
+      "version": "2.0.2",
+      "declared_license": "ISC"
+    },
+    "notices/npm/why-is-node-running/LICENSE": {
+      "sha256": "6a134e51aa31496c15a741592fc5d782b2dbf8d8b6b8524e15c8520ae0cd6374",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/why-is-node-running",
+      "version": "3.2.1",
+      "declared_license": "MIT"
+    },
+    "notices/npm/word-wrap/LICENSE": {
+      "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/word-wrap",
+      "version": "1.2.5",
+      "declared_license": "MIT"
+    },
+    "notices/npm/xml-name-validator/LICENSE.txt": {
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/xml-name-validator",
+      "version": "5.0.0",
+      "declared_license": "Apache-2.0"
+    },
+    "notices/npm/xmlchars/LICENSE": {
+      "sha256": "45d196313c2647d313cc65ca9b093d2d6974b64d35ee7346f2c60c9d518dff2c",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/xmlchars",
+      "version": "2.2.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/yocto-queue/license": {
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/yocto-queue",
+      "version": "0.1.0",
+      "declared_license": "MIT"
+    },
+    "notices/npm/zod/LICENSE": {
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+      "source": "Installed locked npm package root notice; no package code or binary copied",
+      "package": "node_modules/zod",
+      "version": "4.6.7",
+      "declared_license": "MIT"
+    },
+    "notices/python/fastapi-0.135.0/licenses/LICENSE": {
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "source": "Installed locked wheel notice text; no package binary",
+      "package": "fastapi",
+      "version": "0.135.0",
+      "scope": "Runtime notice text; target binary distribution remains separate"
+    },
+    "notices/python/starlette-1.3.1/licenses/LICENSE.md": {
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "source": "Installed locked wheel notice text; no package binary",
+      "package": "starlette",
+      "version": "1.3.1",
+      "scope": "Runtime notice text; target binary distribution remains separate"
+    },
+    "notices/python/annotated-doc-0.0.4/licenses/LICENSE": {
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "source": "Installed locked wheel notice text; no package binary",
+      "package": "annotated-doc",
+      "version": "0.0.4",
+      "scope": "Runtime notice text; target binary distribution remains separate"
+    }
+  },
+  "locked_npm_entries_not_installed_on_mac": [
+    "node_modules/@emnapi/core",
+    "node_modules/@emnapi/runtime",
+    "node_modules/@emnapi/wasi-threads",
+    "node_modules/@img/sharp-darwin-x64",
+    "node_modules/@img/sharp-freebsd-wasm32",
+    "node_modules/@img/sharp-libvips-darwin-x64",
+    "node_modules/@img/sharp-libvips-linux-arm",
+    "node_modules/@img/sharp-libvips-linux-arm64",
+    "node_modules/@img/sharp-libvips-linux-ppc64",
+    "node_modules/@img/sharp-libvips-linux-riscv64",
+    "node_modules/@img/sharp-libvips-linux-s390x",
+    "node_modules/@img/sharp-libvips-linux-x64",
+    "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+    "node_modules/@img/sharp-libvips-linuxmusl-x64",
+    "node_modules/@img/sharp-linux-arm",
+    "node_modules/@img/sharp-linux-arm64",
+    "node_modules/@img/sharp-linux-ppc64",
+    "node_modules/@img/sharp-linux-riscv64",
+    "node_modules/@img/sharp-linux-s390x",
+    "node_modules/@img/sharp-linux-x64",
+    "node_modules/@img/sharp-linuxmusl-arm64",
+    "node_modules/@img/sharp-linuxmusl-x64",
+    "node_modules/@img/sharp-wasm32",
+    "node_modules/@img/sharp-webcontainers-wasm32",
+    "node_modules/@img/sharp-win32-arm64",
+    "node_modules/@img/sharp-win32-ia32",
+    "node_modules/@img/sharp-win32-x64",
+    "node_modules/@napi-rs/wasm-runtime",
+    "node_modules/@next/swc-darwin-x64",
+    "node_modules/@next/swc-linux-arm64-gnu",
+    "node_modules/@next/swc-linux-arm64-musl",
+    "node_modules/@next/swc-linux-x64-gnu",
+    "node_modules/@next/swc-linux-x64-musl",
+    "node_modules/@next/swc-win32-arm64-msvc",
+    "node_modules/@next/swc-win32-x64-msvc",
+    "node_modules/@rolldown/binding-android-arm-eabi",
+    "node_modules/@rolldown/binding-android-arm64",
+    "node_modules/@rolldown/binding-darwin-x64",
+    "node_modules/@rolldown/binding-freebsd-x64",
+    "node_modules/@rolldown/binding-linux-arm-gnueabihf",
+    "node_modules/@rolldown/binding-linux-arm64-gnu",
+    "node_modules/@rolldown/binding-linux-arm64-musl",
+    "node_modules/@rolldown/binding-linux-ppc64-gnu",
+    "node_modules/@rolldown/binding-linux-s390x-gnu",
+    "node_modules/@rolldown/binding-linux-x64-gnu",
+    "node_modules/@rolldown/binding-linux-x64-musl",
+    "node_modules/@rolldown/binding-openharmony-arm64",
+    "node_modules/@rolldown/binding-win32-arm64-msvc",
+    "node_modules/@rolldown/binding-win32-x64-msvc",
+    "node_modules/@tailwindcss/oxide-android-arm64",
+    "node_modules/@tailwindcss/oxide-darwin-x64",
+    "node_modules/@tailwindcss/oxide-freebsd-x64",
+    "node_modules/@tailwindcss/oxide-linux-arm-gnueabihf",
+    "node_modules/@tailwindcss/oxide-linux-arm64-gnu",
+    "node_modules/@tailwindcss/oxide-linux-arm64-musl",
+    "node_modules/@tailwindcss/oxide-linux-x64-gnu",
+    "node_modules/@tailwindcss/oxide-linux-x64-musl",
+    "node_modules/@tailwindcss/oxide-wasm32-wasi",
+    "node_modules/@tailwindcss/oxide-win32-arm64-msvc",
+    "node_modules/@tailwindcss/oxide-win32-x64-msvc",
+    "node_modules/@tybys/wasm-util",
+    "node_modules/lightningcss-android-arm64",
+    "node_modules/lightningcss-darwin-x64",
+    "node_modules/lightningcss-freebsd-x64",
+    "node_modules/lightningcss-linux-arm-gnueabihf",
+    "node_modules/lightningcss-linux-arm64-gnu",
+    "node_modules/lightningcss-linux-arm64-musl",
+    "node_modules/lightningcss-linux-x64-gnu",
+    "node_modules/lightningcss-linux-x64-musl",
+    "node_modules/lightningcss-win32-arm64-msvc",
+    "node_modules/lightningcss-win32-x64-msvc",
+    "node_modules/vite/node_modules/lightningcss-android-arm64",
+    "node_modules/vite/node_modules/lightningcss-darwin-x64",
+    "node_modules/vite/node_modules/lightningcss-freebsd-x64",
+    "node_modules/vite/node_modules/lightningcss-linux-arm-gnueabihf",
+    "node_modules/vite/node_modules/lightningcss-linux-arm64-gnu",
+    "node_modules/vite/node_modules/lightningcss-linux-arm64-musl",
+    "node_modules/vite/node_modules/lightningcss-linux-x64-gnu",
+    "node_modules/vite/node_modules/lightningcss-linux-x64-musl",
+    "node_modules/vite/node_modules/lightningcss-win32-arm64-msvc",
+    "node_modules/vite/node_modules/lightningcss-win32-x64-msvc"
+  ]
+}

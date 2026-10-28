@@ -1,0 +1,1807 @@
+{
+  "scan_date": "2026-10-27",
+  "scanner": "Grype 0.121.0 / Syft 1.55.0",
+  "database_built": "2026-10-27T06:30:41Z",
+  "database_schema": "v6.1.10",
+  "database_archive_sha256": "16a9163729d925edbf911db3542666748f06ddb2ce541211a4f1314349e20442",
+  "image_identity": "sha256:ea2bc67f36dabe704b3c7ea82d6a1bcb320a849e546d6ef894686471c03cf0f7",
+  "platform": "linux/amd64",
+  "scope": "New 8A-2 final squashed runtime filesystem; no new all-layer scan claimed",
+  "offline_matching": {
+    "app_update_check": false,
+    "db_auto_update": false,
+    "external_package_lookups": false,
+    "source": "Local Docker image, no image/SBOM uploaded"
+  },
+  "severity_match_counts": {
+    "High": 57,
+    "Medium": 59,
+    "Negligible": 47,
+    "Low": 11,
+    "Critical": 0
+  },
+  "critical_high_distinct_advisory_ids": 14,
+  "critical_high_fix_states": {
+    "wont-fix": 56,
+    "not-fixed": 1
+  },
+  "interpretation": "Package/advisory matches, not exploit counts. See documented exposure review; no findings suppressed.",
+  "matches": [
+    {
+      "package": "perl-base",
+      "version": "5.40.1-6+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-82560",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-82560"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2025-12781",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.13.10",
+        "3.14.1",
+        "3.15.0a2"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-12781"
+    },
+    {
+      "package": "perl-base",
+      "version": "5.40.1-6+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-9538",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-9538"
+    },
+    {
+      "package": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1",
+      "type": "deb",
+      "advisory": "CVE-2026-85091",
+      "severity": "High",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-85091"
+    },
+    {
+      "package": "libncursesw6",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-69720",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-69720"
+    },
+    {
+      "package": "libtinfo6",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-69720",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-69720"
+    },
+    {
+      "package": "ncurses-base",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-69720",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-69720"
+    },
+    {
+      "package": "ncurses-bin",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-69720",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-69720"
+    },
+    {
+      "package": "gcc-14-base",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-95619",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95619"
+    },
+    {
+      "package": "libgcc-s1",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-95619",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95619"
+    },
+    {
+      "package": "libgomp1",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-95619",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95619"
+    },
+    {
+      "package": "libstdc++6",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-95619",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95619"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2018-20796",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2018-20796"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2018-20796",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2018-20796"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-4xh5-x5gv-qwph",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "25.3"
+      ],
+      "source": "https://github.com/advisories/GHSA-4xh5-x5gv-qwph"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2025-15366",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.13.15",
+        "3.14.7",
+        "3.15.0a6"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-15366"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-3.1",
+      "type": "deb",
+      "advisory": "CVE-2026-5704",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-5704"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-19499",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-19499"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-19499",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-19499"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-3184",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "package": "gcc-14-base",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-102010",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102010"
+    },
+    {
+      "package": "libgcc-s1",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-102010",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102010"
+    },
+    {
+      "package": "libgomp1",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-102010",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102010"
+    },
+    {
+      "package": "libstdc++6",
+      "version": "14.2.0-19",
+      "type": "deb",
+      "advisory": "CVE-2026-102010",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102010"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6238",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6238"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6238",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6238"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2025-15367",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.15.0a6"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2025-15367"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-3.1",
+      "type": "deb",
+      "advisory": "CVE-2005-2541",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2005-2541"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-77117",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-77117"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-80489",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-80489"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-77117",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-77117"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-80489",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-80489"
+    },
+    {
+      "package": "libpam-modules",
+      "version": "1.7.0-5",
+      "type": "deb",
+      "advisory": "CVE-2026-54411",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54411"
+    },
+    {
+      "package": "libpam-modules-bin",
+      "version": "1.7.0-5",
+      "type": "deb",
+      "advisory": "CVE-2026-54411",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54411"
+    },
+    {
+      "package": "libpam-runtime",
+      "version": "1.7.0-5",
+      "type": "deb",
+      "advisory": "CVE-2026-54411",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54411"
+    },
+    {
+      "package": "libpam0g",
+      "version": "1.7.0-5",
+      "type": "deb",
+      "advisory": "CVE-2026-54411",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54411"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2026-12345",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.15.0rc3"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-12345"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-wf93-45jw-7689",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "26.1.2"
+      ],
+      "source": "https://github.com/advisories/GHSA-wf93-45jw-7689"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-5435",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-5435"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-5435",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-5435"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-76642",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010022",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010022"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010022",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010022"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-8674",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-8674"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-8674",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-8674"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010024",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010024"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010024",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010024"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-qwm4-qh6w-59xr",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "26.2.0"
+      ],
+      "source": "https://github.com/advisories/GHSA-qwm4-qh6w-59xr"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010023",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010023"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010023",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010023"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78408",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "package": "login.defs",
+      "version": "1:4.17.4-2",
+      "type": "deb",
+      "advisory": "CVE-2024-56433",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2024-56433"
+    },
+    {
+      "package": "passwd",
+      "version": "1:4.17.4-2",
+      "type": "deb",
+      "advisory": "CVE-2024-56433",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2024-56433"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78409",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2010-4756",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2010-4756"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2010-4756",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2010-4756"
+    },
+    {
+      "package": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1",
+      "type": "deb",
+      "advisory": "CVE-2026-27171",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-27171"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6791",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6791"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6791",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6791"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-78410",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010025",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010025"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-1010025",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-1010025"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-9192",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-9192"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2019-9192",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2019-9192"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-19542",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-19542"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-19542",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-19542"
+    },
+    {
+      "package": "libacl1",
+      "version": "2.3.2-2+b1",
+      "type": "deb",
+      "advisory": "CVE-2026-54369",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54369"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-6vgw-5pg2-w6jp",
+      "severity": "Low",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "26.0"
+      ],
+      "source": "https://github.com/advisories/GHSA-6vgw-5pg2-w6jp"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-89092",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-89092"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-89092",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-89092"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2026-3446",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.13.13",
+        "3.14.4",
+        "3.15.0a8"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-3446"
+    },
+    {
+      "package": "libncursesw6",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-6141",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-6141"
+    },
+    {
+      "package": "libtinfo6",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-6141",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-6141"
+    },
+    {
+      "package": "ncurses-base",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-6141",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-6141"
+    },
+    {
+      "package": "ncurses-bin",
+      "version": "6.5+20250216-2",
+      "type": "deb",
+      "advisory": "CVE-2025-6141",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-6141"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2026-6019",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.13.14",
+        "3.14.5rc1",
+        "3.15.0b1"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-6019"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-97399",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-97399"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-97399",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-97399"
+    },
+    {
+      "package": "perl-base",
+      "version": "5.40.1-6+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-15534",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-15534"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-15059",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-15059"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-15059",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-15059"
+    },
+    {
+      "package": "libsqlite3-0",
+      "version": "3.46.1-7+deb13u2",
+      "type": "deb",
+      "advisory": "CVE-2026-50812",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-50812"
+    },
+    {
+      "package": "libsqlite3-0",
+      "version": "3.46.1-7+deb13u2",
+      "type": "deb",
+      "advisory": "CVE-2026-50813",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-50813"
+    },
+    {
+      "package": "libattr1",
+      "version": "1:2.5.2-3",
+      "type": "deb",
+      "advisory": "CVE-2026-54371",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54371"
+    },
+    {
+      "package": "libsqlite3-0",
+      "version": "3.46.1-7+deb13u2",
+      "type": "deb",
+      "advisory": "CVE-2021-45346",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2021-45346"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-18374",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-18374"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-18374",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-18374"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-jp4c-xjxw-mgf9",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "26.1"
+      ],
+      "source": "https://github.com/advisories/GHSA-jp4c-xjxw-mgf9"
+    },
+    {
+      "package": "pip",
+      "version": "25.0.1",
+      "type": "python",
+      "advisory": "GHSA-58qw-9mgm-455v",
+      "severity": "Medium",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "26.1"
+      ],
+      "source": "https://github.com/advisories/GHSA-58qw-9mgm-455v"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-3.1",
+      "type": "deb",
+      "advisory": "CVE-2026-18508",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-18508"
+    },
+    {
+      "package": "libacl1",
+      "version": "2.3.2-2+b1",
+      "type": "deb",
+      "advisory": "CVE-2026-54370",
+      "severity": "High",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-54370"
+    },
+    {
+      "package": "libbz2-1.0",
+      "version": "1.0.8-6",
+      "type": "deb",
+      "advisory": "CVE-2026-42250",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-42250"
+    },
+    {
+      "package": "apt",
+      "version": "3.0.3",
+      "type": "deb",
+      "advisory": "CVE-2011-3374",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2011-3374"
+    },
+    {
+      "package": "libapt-pkg7.0",
+      "version": "3.0.3",
+      "type": "deb",
+      "advisory": "CVE-2011-3374",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2011-3374"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-86805",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-86805"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-86805",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-86805"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-40228",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-40228"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-40228",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-40228"
+    },
+    {
+      "package": "login.defs",
+      "version": "1:4.17.4-2",
+      "type": "deb",
+      "advisory": "CVE-2007-5686",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2007-5686"
+    },
+    {
+      "package": "passwd",
+      "version": "1:4.17.4-2",
+      "type": "deb",
+      "advisory": "CVE-2007-5686",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2007-5686"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-95818",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95818"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-95818",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-95818"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-3.1",
+      "type": "deb",
+      "advisory": "CVE-2026-18477",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-18477"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-16742",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-16742"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2026-16742",
+      "severity": "Medium",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-16742"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6368",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6368"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4",
+      "type": "deb",
+      "advisory": "CVE-2026-6368",
+      "severity": "Low",
+      "fix_state": "wont-fix",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-6368"
+    },
+    {
+      "package": "perl-base",
+      "version": "5.40.1-6+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2011-4116",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2011-4116"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2013-4392",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2013-4392"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2013-4392",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2013-4392"
+    },
+    {
+      "package": "libsqlite3-0",
+      "version": "3.46.1-7+deb13u2",
+      "type": "deb",
+      "advisory": "CVE-2025-70873",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-70873"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2022-0563",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31439",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31439"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31439",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31439"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.7-3",
+      "type": "deb",
+      "advisory": "CVE-2017-18018",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2017-18018"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31437",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31437"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31437",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31437"
+    },
+    {
+      "package": "diffutils",
+      "version": "1:3.10-4",
+      "type": "deb",
+      "advisory": "CVE-2026-53910",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-53910"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31438",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31438"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1",
+      "type": "deb",
+      "advisory": "CVE-2023-31438",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2023-31438"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.7-3",
+      "type": "deb",
+      "advisory": "CVE-2025-5278",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2025-5278"
+    },
+    {
+      "package": "python",
+      "version": "3.12.15",
+      "type": "binary",
+      "advisory": "CVE-2026-3479",
+      "severity": "Negligible",
+      "fix_state": "fixed",
+      "fix_versions": [
+        "3.13.13",
+        "3.14.4",
+        "3.15.0a8"
+      ],
+      "source": "https://nvd.nist.gov/vuln/detail/CVE-2026-3479"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.7-3",
+      "type": "deb",
+      "advisory": "CVE-2026-56392",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-56392"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.7-3",
+      "type": "deb",
+      "advisory": "CVE-2026-56391",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-56391"
+    },
+    {
+      "package": "dash",
+      "version": "0.5.12-12",
+      "type": "deb",
+      "advisory": "CVE-2026-102474",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102474"
+    },
+    {
+      "package": "dash",
+      "version": "0.5.12-12",
+      "type": "deb",
+      "advisory": "CVE-2026-102473",
+      "severity": "Negligible",
+      "fix_state": "not-fixed",
+      "fix_versions": [],
+      "source": "https://security-tracker.debian.org/tracker/CVE-2026-102473"
+    }
+  ]
+}

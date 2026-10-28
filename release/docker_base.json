@@ -1,0 +1,11 @@
+{
+  "registry": "Docker Hub official library/python",
+  "tag": "3.12.15-slim-trixie",
+  "target": "linux/amd64",
+  "image_manifest_digest": "sha256:e8a38829209aea82774882e5157e1f7c3e8c8393ff53a697b3580896e57f345c",
+  "metadata_verified": "2026-10-27",
+  "reason": "Patched Python 3.12 and refreshed Debian base; ML package pins unchanged",
+  "build_and_runtime_tests": "PASS Linux amd64 under Apple Silicon emulation, Python 3.12.15, x86_64",
+  "local_image_id": "sha256:ea2bc67f36dabe704b3c7ea82d6a1bcb320a849e546d6ef894686471c03cf0f7",
+  "size_bytes": 143694382
+}

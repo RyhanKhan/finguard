@@ -1,0 +1,34 @@
+{
+  "credit-inference-v1/bands.json": {
+    "sha256": "335e66a5c4818f9b6003a9ad5e9cb3ba9cd02c99ad29ea95ec5470bb81890892",
+    "size": 350
+  },
+  "credit-inference-v1/contract.json": {
+    "sha256": "a9f2403bba8ed12772f0754ed2d81d87ab56a4134bae4148843c7b99047429d1",
+    "size": 8612
+  },
+  "credit-inference-v1/manifest.json": {
+    "sha256": "622ff9d2eba201de54cb469fd1d0582997295f6ee37c4ebe14f369e7e08335c9",
+    "size": 3476
+  },
+  "credit-inference-v1/model.txt": {
+    "sha256": "0eab700422d6806a0da39e17e8ef884db3ff46461de7923160a00773dbdefee3",
+    "size": 187894
+  },
+  "fraud-inference-v1/contract.json": {
+    "sha256": "0651932a1c685650b96de06deebfd4f55f240eb70349710e346d74025b2f3810",
+    "size": 445
+  },
+  "fraud-inference-v1/manifest.json": {
+    "sha256": "1ac36be6d635ad20a99107baf9d854cb41e2d8d809b0df3156ec5fe0a8fc85da",
+    "size": 1767
+  },
+  "fraud-inference-v1/model.txt": {
+    "sha256": "a7d2a4090b2971a8e353374032a02d162fd5782e0a6326d91f44e2164bad5b73",
+    "size": 277995
+  },
+  "fraud-inference-v1/policy.json": {
+    "sha256": "95c9f70c648f38d25b965a746123e60a6fe7e41c7835f40f64c7935b59e52de0",
+    "size": 309
+  }
+}

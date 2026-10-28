@@ -1,0 +1,128 @@
+{
+  "finguard-api-unavailable.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-evidence-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-explanation-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-overview-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-scenario-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-score-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-credit-score-mobile.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-economics-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-evaluation-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-overview-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-overview-mobile-scrolled.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-overview-mobile.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-scoring-desktop.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  },
+  "finguard-scoring-mobile.png": {
+    "chunk_types": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ],
+    "text_or_exif_metadata": [],
+    "visual_review": "Reviewed full screenshot: approved aggregate or invented synthetic content; no browser chrome, developer paths, private user/contact details or real individual record visible."
+  }
+}

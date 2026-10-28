@@ -1,0 +1,11 @@
+# Build-context allowlist. Models, Git, environments, research and frontend excluded.
+**
+!Dockerfile
+!requirements-runtime-lock.txt
+!src/
+!src/finguard_runtime/
+!src/finguard_runtime/*.py
+!backend/
+!backend/__init__.py
+!backend/app/
+!backend/app/*.py

@@ -1,0 +1,30 @@
+# No Git repository is initialized by this milestone.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+artifacts/
+models/
+private/
+node_modules/
+.next/
+*.tsbuildinfo
+frontend/next-env.d.ts
+frontend/test-results/
+frontend/playwright-report/
+frontend/coverage/
+*.log
+.DS_Store
+
+# Never include research inputs or local toolchains in a future source commit.
+data/
+datasets/
+.tools/
+mlruns/
+mlartifacts/

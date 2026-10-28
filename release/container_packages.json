@@ -1,0 +1,358 @@
+{
+  "scope": "Package inventory, no binaries",
+  "evidence": "Executed 8A-2 Linux amd64 image, 2026-10-27",
+  "packages": [
+    {
+      "package": "adduser",
+      "version": "3.152"
+    },
+    {
+      "package": "apt",
+      "version": "3.0.3"
+    },
+    {
+      "package": "base-files",
+      "version": "13.8+deb13u7"
+    },
+    {
+      "package": "base-passwd",
+      "version": "3.6.7"
+    },
+    {
+      "package": "bash",
+      "version": "5.2.37-2+b10"
+    },
+    {
+      "package": "bsdutils",
+      "version": "1:2.41.5-0+deb13u1"
+    },
+    {
+      "package": "ca-certificates",
+      "version": "20250419+deb13u1"
+    },
+    {
+      "package": "coreutils",
+      "version": "9.7-3"
+    },
+    {
+      "package": "dash",
+      "version": "0.5.12-12"
+    },
+    {
+      "package": "debconf",
+      "version": "1.5.91"
+    },
+    {
+      "package": "debian-archive-keyring",
+      "version": "2025.1"
+    },
+    {
+      "package": "debianutils",
+      "version": "5.23.2"
+    },
+    {
+      "package": "diffutils",
+      "version": "1:3.10-4"
+    },
+    {
+      "package": "dpkg",
+      "version": "1.22.22"
+    },
+    {
+      "package": "findutils",
+      "version": "4.10.0-3"
+    },
+    {
+      "package": "gcc-14-base",
+      "version": "14.2.0-19"
+    },
+    {
+      "package": "grep",
+      "version": "3.11-4"
+    },
+    {
+      "package": "gzip",
+      "version": "1.13-1+deb13u1"
+    },
+    {
+      "package": "hostname",
+      "version": "3.25"
+    },
+    {
+      "package": "init-system-helpers",
+      "version": "1.69~deb13u1"
+    },
+    {
+      "package": "libacl1",
+      "version": "2.3.2-2+b1"
+    },
+    {
+      "package": "libapt-pkg7.0",
+      "version": "3.0.3"
+    },
+    {
+      "package": "libattr1",
+      "version": "1:2.5.2-3"
+    },
+    {
+      "package": "libaudit-common",
+      "version": "1:4.0.2-2+deb13u1"
+    },
+    {
+      "package": "libaudit1",
+      "version": "1:4.0.2-2+deb13u1"
+    },
+    {
+      "package": "libblkid1",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "libbsd0",
+      "version": "0.12.2-2"
+    },
+    {
+      "package": "libbz2-1.0",
+      "version": "1.0.8-6"
+    },
+    {
+      "package": "libc-bin",
+      "version": "2.41-12+deb13u4"
+    },
+    {
+      "package": "libc6",
+      "version": "2.41-12+deb13u4"
+    },
+    {
+      "package": "libcap-ng0",
+      "version": "0.8.5-4+b1"
+    },
+    {
+      "package": "libcap2",
+      "version": "1:2.75-10+deb13u1+b3"
+    },
+    {
+      "package": "libcrypt1",
+      "version": "1:4.4.38-1"
+    },
+    {
+      "package": "libdb5.3t64",
+      "version": "5.3.28+dfsg2-9"
+    },
+    {
+      "package": "libdebconfclient0",
+      "version": "0.280"
+    },
+    {
+      "package": "libffi8",
+      "version": "3.4.8-2"
+    },
+    {
+      "package": "libgcc-s1",
+      "version": "14.2.0-19"
+    },
+    {
+      "package": "libgdbm6t64",
+      "version": "1.24-2"
+    },
+    {
+      "package": "libgmp10",
+      "version": "2:6.3.0+dfsg-3"
+    },
+    {
+      "package": "libgomp1",
+      "version": "14.2.0-19"
+    },
+    {
+      "package": "libhogweed6t64",
+      "version": "3.10.1-1"
+    },
+    {
+      "package": "liblastlog2-2",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "liblz4-1",
+      "version": "1.10.0-4"
+    },
+    {
+      "package": "liblzma5",
+      "version": "5.8.1-1+deb13u2"
+    },
+    {
+      "package": "libmd0",
+      "version": "1.1.0-2+b1"
+    },
+    {
+      "package": "libmount1",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "libncursesw6",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "package": "libnettle8t64",
+      "version": "3.10.1-1"
+    },
+    {
+      "package": "libpam-modules",
+      "version": "1.7.0-5"
+    },
+    {
+      "package": "libpam-modules-bin",
+      "version": "1.7.0-5"
+    },
+    {
+      "package": "libpam-runtime",
+      "version": "1.7.0-5"
+    },
+    {
+      "package": "libpam0g",
+      "version": "1.7.0-5"
+    },
+    {
+      "package": "libpcre2-8-0",
+      "version": "10.46-1~deb13u3"
+    },
+    {
+      "package": "libreadline8t64",
+      "version": "8.2-6"
+    },
+    {
+      "package": "libseccomp2",
+      "version": "2.6.0-2"
+    },
+    {
+      "package": "libselinux1",
+      "version": "3.8.1-1"
+    },
+    {
+      "package": "libsemanage-common",
+      "version": "3.8.1-1"
+    },
+    {
+      "package": "libsemanage2",
+      "version": "3.8.1-1"
+    },
+    {
+      "package": "libsepol2",
+      "version": "3.8.1-1"
+    },
+    {
+      "package": "libsmartcols1",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "libsqlite3-0",
+      "version": "3.46.1-7+deb13u2"
+    },
+    {
+      "package": "libssl3t64",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "package": "libstdc++6",
+      "version": "14.2.0-19"
+    },
+    {
+      "package": "libsystemd0",
+      "version": "257.13-1~deb13u1"
+    },
+    {
+      "package": "libtinfo6",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "package": "libudev1",
+      "version": "257.13-1~deb13u1"
+    },
+    {
+      "package": "libuuid1",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "libxxhash0",
+      "version": "0.8.3-2"
+    },
+    {
+      "package": "libzstd1",
+      "version": "1.5.7+dfsg-1"
+    },
+    {
+      "package": "login",
+      "version": "1:4.16.0-2+really2.41.5-0+deb13u1"
+    },
+    {
+      "package": "login.defs",
+      "version": "1:4.17.4-2"
+    },
+    {
+      "package": "mawk",
+      "version": "1.3.4.20250131-1"
+    },
+    {
+      "package": "mount",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "ncurses-base",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "package": "ncurses-bin",
+      "version": "6.5+20250216-2"
+    },
+    {
+      "package": "netbase",
+      "version": "6.5"
+    },
+    {
+      "package": "openssl",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "package": "openssl-provider-legacy",
+      "version": "3.5.7-1~deb13u3"
+    },
+    {
+      "package": "passwd",
+      "version": "1:4.17.4-2"
+    },
+    {
+      "package": "perl-base",
+      "version": "5.40.1-6+deb13u1"
+    },
+    {
+      "package": "readline-common",
+      "version": "8.2-6"
+    },
+    {
+      "package": "sed",
+      "version": "4.9-2+deb13u1"
+    },
+    {
+      "package": "sqv",
+      "version": "1.3.0-3+b2"
+    },
+    {
+      "package": "sysvinit-utils",
+      "version": "3.14-4"
+    },
+    {
+      "package": "tar",
+      "version": "1.35+dfsg-3.1"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026c-0+deb13u1"
+    },
+    {
+      "package": "util-linux",
+      "version": "2.41.5-0+deb13u1"
+    },
+    {
+      "package": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1"
+    }
+  ]
+}

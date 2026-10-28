@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-27",
+  "milestone": "8A-2 lean portfolio preparation",
+  "backend_tests": {
+    "with_approved_models_passed": 201,
+    "failed": 0,
+    "focused_security_passed": 39,
+    "source_only_passed": 49,
+    "source_only_skipped": 152,
+    "warnings": [
+      "Starlette TestClient HTTPX deprecation",
+      "AnyIO BlockingPortal alias deprecation"
+    ]
+  },
+  "frontend": {
+    "vitest_tests": 72,
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "format": "PASS",
+    "production_build": "PASS",
+    "production_browser_passed": 11,
+    "browser_retries": 0,
+    "browser_duration_seconds": 13.813551,
+    "node": "24.22.1",
+    "npm": "11.19.1"
+  },
+  "docker": {
+    "build": "PASS --platform linux/amd64",
+    "architecture": "x86_64",
+    "python": "3.12.15",
+    "image_size_bytes": 143694382,
+    "uid_gid": "10001:10001",
+    "app_lock_files": 21,
+    "configuration_check": "Exit 0; InvalidBaseImagePlatform lint warning on ARM host despite explicit CLI AMD64 target. Actual image/process verified AMD64.",
+    "read_only_root_and_mounts": true,
+    "capabilities": "ALL dropped",
+    "no_new_privileges": true,
+    "secret_provisioning_production_port_10000": "PASS local emulation, not real Render"
+  },
+  "http_smoke": {
+    "services": "fraud and credit ready",
+    "fraud_synthetic_score": 0.0006554509184609327,
+    "fraud_action": "approve",
+    "credit_synthetic_raw_score": 0.24888492804155674,
+    "credit_band": 4,
+    "credit_reconstruction_verified": true,
+    "hypothetical_loss_ntd": 1000.0,
+    "invalid_inputs_rejected": true
+  },
+  "cross_architecture_differences": {
+    "fraud_probability": 0.0,
+    "credit_probability": 0.0,
+    "baseline_margin": 0.0,
+    "raw_margin": 0.0,
+    "max_feature_contribution": 5.551115123125783e-17
+  },
+  "faults": {
+    "fraud_missing": {
+      "fraud": 503,
+      "credit": 200
+    },
+    "fraud_corrupt": {
+      "fraud": 503,
+      "credit": 200
+    },
+    "credit_missing": {
+      "fraud": 200,
+      "credit": 503
+    },
+    "credit_corrupt": {
+      "fraud": 200,
+      "credit": 503
+    }
+  },
+  "default_request_budget": "PASS 120/minute burst 16, actual 429/Retry-After; readiness unaffected",
+  "testing_note": "Bulk QA and browser container uses explicitly elevated test budget; default budget independently tested in fresh container",
+  "source_hygiene": "Exact inventory, unchanged runtime/catalog/model bytes and heuristic personal/secret scan; no security guarantee",
+  "cloud_runtime": "NOT EXECUTED",
+  "published_or_deployed": false,
+  "models_distributed": false
+}

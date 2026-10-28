@@ -1,0 +1,4 @@
+next-env.d.ts
+public/reports/
+.next/
+node_modules/
