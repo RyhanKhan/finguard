@@ -3389,3 +3389,31 @@ tbody th {
     line-height: 1.4;
   }
 }
+
+.portfolio-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.research-detail p,
+.research-detail li {
+  line-height: 1.7;
+}
+.research-detail ul {
+  padding-left: 20px;
+  margin: 12px 0;
+}
+.research-detail code {
+  overflow-wrap: anywhere;
+}
+.research-attribution {
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.research-content {
+  padding: 0 22px 22px;
+  font-size: 13px;
+}

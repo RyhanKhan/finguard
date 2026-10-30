@@ -1,15 +1,22 @@
 # FinGuard
 
-A portfolio research application for inspecting fraud detection, credit risk and the decisions built around model scores. A Next.js dashboard connects to a FastAPI backend that serves two frozen LightGBM models with verified, separately versioned inference contracts.
+A portfolio research application for inspecting fraud detection, credit risk and the decisions built around model scores. A Next.js dashboard connects to a FastAPI backend that supports frozen LightGBM models with verified, separately versioned inference contracts.
 
-**Published source:** [RyhanKhan/finguard](https://github.com/RyhanKhan/finguard). The interactive cloud demo is not deployed yet. A project software license has not been selected. **This source alone cannot perform live model inference: approved private model bundles are required and are not distributed here.** Static historical results and screenshots can be explored without models; missing models produce explicit unavailable states, never simulated predictions.
+**Live portfolio:** [finguard-mocha-mu.vercel.app](https://finguard-mocha-mu.vercel.app) · **Source:** [RyhanKhan/finguard](https://github.com/RyhanKhan/finguard).
+
+| Module | Public experience | What it demonstrates |
+| --- | --- | --- |
+| [Credit Risk](https://finguard-mocha-mu.vercel.app/credit) | Live scoring, five relative-risk bands, 19-field native explanations and hypothetical NTD loss scenarios | Input/vocabulary contracts, model-margin reconstruction, uncertainty and separation of scores from decisions |
+| [Fraud Detection](https://finguard-mocha-mu.vercel.app/evaluation) | Frozen historical evaluation, architecture and simulated economics; interactive scoring is not enabled | Forward validation, probability-quality diagnostics, cost-sensitive policy design and frozen evaluation |
+
+For a quick interview walkthrough: try an invented Credit input, inspect how all 19 contributions reconstruct its score, then explore Fraud ranking and simulated policy economics. These are educational research models, not production fraud monitoring, lending decisions or realized bank savings.
 
 ## Fraud Detection
 
-- Score one complete transaction vector: `V1`–`V28` and `Amount`.
-- Inspect a RAW model estimate and frozen approve/review/decline policy reasoning.
-- Review published historical ranking, routing and illustrative decision-cost results.
-- Preserve exact thresholds and equality rules; no automatic fitting, recalibration or policy optimization.
+- Inspect published historical ranking, routing, architecture and illustrative decision-cost results.
+- Review a frozen RAW LightGBM model using V1-V28 and Amount, with approve/review/decline thresholds and exact equality rules.
+- Interactive Fraud scoring remains offline pending ODbL/DbCL compliance clarification. Its pages make no inference requests and produce no fallback predictions.
+- Dataset attribution and the actual transformation/disclosure review are in [Fraud methods and licensing status](docs/fraud_methods.md). Static research outputs also require consideration of these obligations; no clearance is claimed.
 
 ## Credit Risk
 
@@ -139,7 +146,7 @@ npm run build
 npm run test:e2e
 ```
 
-Model-dependent Python tests explicitly skip when `FINGUARD_INFERENCE_ROOT` is unset. They are not reported as passed without actual models. Test corruption copies and generated outputs belong in a private test temp directory, never public source. The browser journeys use actual inference for ordinary scoring, with explicitly labelled readiness-fault interception. See [validation](docs/validation.md) for historical and current results and [dependency review](docs/dependency_security.md) for known issues. Functional tests do not imply vulnerability clearance.
+Model-dependent Python tests explicitly skip when `FINGUARD_INFERENCE_ROOT` is unset. They are not reported as passed without actual models. Test corruption copies and generated outputs belong in a private test temp directory, never public source. The public browser journeys verify historical Fraud presentation with no Fraud requests and actual Credit inference, with explicitly labelled readiness-fault interception. Dormant interactive Fraud component tests use an explicit provider opt-in; that opt-in is not enabled in the published app. See [validation](docs/validation.md) for historical and current results and [dependency review](docs/dependency_security.md) for known issues. Functional tests do not imply vulnerability clearance.
 
 ## Research limitations
 
@@ -147,8 +154,8 @@ Fraud is a historical, imbalanced transaction task with temporal dependence, ups
 
 ## Portfolio launch handoff
 
-The backend launcher supports the platform PORT, exact production Host/CORS, bounded requests and optional fixed-name private Render secret files. Vercel builds require an explicit HTTPS `NEXT_PUBLIC_API_BASE_URL` and reject loopback/default-local configuration. See [deployment instructions](docs/deployment_handoff.md) and the [A/B/C owner checklist](docs/publication_plan.md). No cloud deployment or model upload has occurred. Root LICENSE selection is optional.
+The backend launcher supports the platform PORT, exact production Host/CORS, bounded requests and optional fixed-name private Render secret files. Vercel builds require an explicit HTTPS `NEXT_PUBLIC_API_BASE_URL` and reject loopback/default-local configuration. See [deployment instructions](docs/deployment_handoff.md) and the [A/B/C owner checklist](docs/publication_plan.md). The existing Vercel frontend and Render Free backend are deployed. Only the privately provisioned Credit bundle is active; Fraud remains historical research. Root LICENSE selection is optional.
 
 ## Distribution and license notes
 
-No root `LICENSE` has been selected. This candidate must not be described as open-source licensed until the owner authorizes a license and authorship review. Dataset attribution is in [ATTRIBUTION.md](ATTRIBUTION.md); dependency obligations are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Both trained bundles remain outside Git. Credit has a published CC BY 4.0 licensing basis with attribution/provenance checks; the specific fraud hosting obligations remain unresolved. A live credit plus static fraud portfolio is an available alternative. See the [component status matrix](docs/model_distribution.md), [publication plan](docs/publication_plan.md) and [cloud handoff](docs/deployment_handoff.md). No GitHub or deployment URL is invented here.
+No root `LICENSE` has been selected. This candidate must not be described as open-source licensed until the owner authorizes a license and authorship review. Dataset attribution is in [ATTRIBUTION.md](ATTRIBUTION.md); dependency obligations are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Both trained bundles remain outside Git. Credit has a published CC BY 4.0 licensing basis with attribution/provenance checks; the specific fraud hosting obligations remain unresolved. The deployed portfolio uses live Credit plus historical Fraud research. See the [component status matrix](docs/model_distribution.md), [publication plan](docs/publication_plan.md) and [cloud handoff](docs/deployment_handoff.md). Private models, datasets and research prediction archives are not distributed in this repository. A project software license has not been selected.

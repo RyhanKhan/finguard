@@ -4,21 +4,28 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 import { api, type ModelInfo } from "@/lib/api";
 
 type Connection = {
-  status: "checking" | "ready" | "unavailable";
+  status: "not-enabled" | "checking" | "ready" | "unavailable";
   info: ModelInfo | null;
   error: string | null;
 };
 const Context = createContext<
   (Connection & { reconnect: () => void; invalidate: (message: string) => void }) | null
 >(null);
-export function ApiProvider({ children }: { children: ReactNode }) {
+export function ApiProvider({
+  children,
+  enableFraudScoring = false,
+}: {
+  children: ReactNode;
+  enableFraudScoring?: boolean;
+}) {
   const [connection, setConnection] = useState<Connection>({
-    status: "checking",
+    status: enableFraudScoring ? "checking" : "not-enabled",
     info: null,
     error: null,
   });
   const [attempt, setAttempt] = useState(0);
   useEffect(() => {
+    if (!enableFraudScoring) return;
     let active = true;
     api.connect().then(
       (info) => {
@@ -36,8 +43,9 @@ export function ApiProvider({ children }: { children: ReactNode }) {
     return () => {
       active = false;
     };
-  }, [attempt]);
+  }, [attempt, enableFraudScoring]);
   function reconnect() {
+    if (!enableFraudScoring) return;
     setConnection({ status: "checking", info: null, error: null });
     setAttempt((n) => n + 1);
   }

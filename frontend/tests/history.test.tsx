@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import Overview from "../src/app/page";
 import { history } from "../src/lib/history";
+import { FraudAttribution } from "../src/components/fraud-research";
 import { Economics } from "../src/components/economics";
 import { fireEvent } from "@testing-library/react";
 
@@ -59,5 +60,28 @@ describe("published aggregate evidence", () => {
     expect(screen.getAllByText("6,503.77").length).toBeGreaterThan(0);
     expect(screen.getByText(/0.9986654773731469/)).toBeInTheDocument();
     expect(screen.getAllByText(/0.480177454887009/, { selector: "code" })).toHaveLength(2);
+  });
+});
+
+describe("Fraud publication notices", () => {
+  it("links the original dataset and both licenses without asserting clearance", () => {
+    render(<FraudAttribution />);
+    expect(screen.getByRole("link", { name: "Credit Card Fraud Detection" })).toHaveAttribute(
+      "href",
+      "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+    );
+    expect(screen.getByRole("link", { name: "ODbL 1.0" })).toHaveAttribute(
+      "href",
+      "https://opendatacommons.org/licenses/odbl/1-0/",
+    );
+    expect(screen.getByRole("link", { name: "DbCL 1.0" })).toHaveAttribute(
+      "href",
+      "https://opendatacommons.org/licenses/dbcl/1-0/",
+    );
+    expect(screen.getByText(/attribution alone does not establish clearance/)).toBeInTheDocument();
+    const methods = readFileSync("../docs/fraud_methods.md", "utf8");
+    expect(readFileSync("./public/reports/fraud-methods.md", "utf8")).toBe(methods);
+    expect(methods).toContain("not a declaration of licensing clearance");
+    expect(methods).toContain("historical/static outputs are not a blanket exemption");
   });
 });

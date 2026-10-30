@@ -4,9 +4,9 @@ import { Shell } from "@/components/shell";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "FinGuard · Fraud intelligence", template: "%s · FinGuard" },
+  title: { default: "FinGuard · ML risk research", template: "%s · FinGuard" },
   description:
-    "A transparent fraud research workspace: historical model evaluation, frozen decision economics and genuine single-transaction inference.",
+    "Live Credit Risk scoring and explanations, alongside frozen Fraud research, historical evaluation and simulated decision economics.",
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

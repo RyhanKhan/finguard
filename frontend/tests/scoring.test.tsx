@@ -13,7 +13,7 @@ function setup(status = 200) {
   });
   vi.stubGlobal("fetch", fetcher);
   render(
-    <ApiProvider>
+    <ApiProvider enableFraudScoring>
       <ScoringWorkspace />
     </ApiProvider>,
   );
@@ -61,7 +61,7 @@ describe("interactive scoring workspace", () => {
   it("keeps inference disabled when artifacts are not ready", async () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response({}, 503)));
     render(
-      <ApiProvider>
+      <ApiProvider enableFraudScoring>
         <ScoringWorkspace />
       </ApiProvider>,
     );
@@ -94,5 +94,29 @@ describe("interactive scoring workspace", () => {
     expect(
       fetcher.mock.calls.filter(([url]) => String(url).endsWith("/v1/fraud/score")),
     ).toHaveLength(1);
+  });
+});
+
+describe("public Fraud research presentation", () => {
+  it("does not contact Fraud or fabricate a prediction when scoring is intentionally off", async () => {
+    const fetcher = vi.fn();
+    vi.stubGlobal("fetch", fetcher);
+    render(
+      <ApiProvider>
+        <ScoringWorkspace />
+      </ApiProvider>,
+    );
+    expect(
+      screen.getByRole("heading", { name: "Verified historical evidence" }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Inspect the evaluation" })).toHaveAttribute(
+      "href",
+      "/evaluation",
+    );
+    expect(screen.getByRole("link", { name: "Credit Risk" })).toHaveAttribute("href", "/credit");
+    expect(screen.queryByRole("button", { name: "Score transaction" })).not.toBeInTheDocument();
+    expect(screen.queryByTestId("raw-score")).not.toBeInTheDocument();
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+    await waitFor(() => expect(fetcher).not.toHaveBeenCalled());
   });
 });

@@ -11,7 +11,7 @@ test("overview renders verified historical evidence on desktop and mobile", asyn
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Intelligence you can inspect." })).toBeVisible();
-  await expect(page.getByText("API connected", { exact: true })).toBeVisible();
+  await expect(page.getByText("Fraud research", { exact: true })).toBeVisible();
   await expect(page.getByText("73,766", { exact: true })).toBeVisible();
   await expect(page.getByText("Held-out historical evaluation")).toBeVisible();
   await page.keyboard.press("Tab");
@@ -22,13 +22,13 @@ test("overview renders verified historical evidence on desktop and mobile", asyn
   await page.screenshot({ path: `${screenshotDir}/finguard-overview-desktop.png`, fullPage: true });
   await page.setViewportSize({ width: 390, height: 844 });
   await expect(
-    page.getByRole("navigation").getByRole("link", { name: "Live scoring" }),
+    page.getByRole("navigation").getByRole("link", { name: "Fraud scoring" }),
   ).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,
   );
   await page.reload();
-  await expect(page.getByText("API connected", { exact: true })).toBeVisible();
+  await expect(page.getByText("Fraud research", { exact: true })).toBeVisible();
   await page.screenshot({ path: `${screenshotDir}/finguard-overview-mobile.png` });
   await page.getByRole("heading", { name: "Where fraud was routed" }).scrollIntoViewIfNeeded();
   await page.screenshot({ path: `${screenshotDir}/finguard-overview-mobile-scrolled.png` });
@@ -58,73 +58,56 @@ test("evaluation and scenario controls preserve the published evidence", async (
   );
 });
 
-test("one genuine synthetic transaction is scored by the actual FastAPI backend", async ({
+test("Fraud research works without making live Fraud requests on desktop and mobile", async ({
   page,
 }) => {
-  // No route mocks: requires the genuine frozen-artifact API on port 8000.
-  await page.goto("/scoring");
-  const submit = page.getByRole("button", { name: "Score transaction", exact: true });
-  await expect(submit).toBeEnabled();
-  await expect(page.getByTestId("raw-score")).toHaveCount(0);
-  await page.getByRole("button", { name: /Start with a synthetic example/ }).click();
-  const responsePromise = page.waitForResponse(
-    (r) => r.url().endsWith("/v1/fraud/score") && r.request().method() === "POST",
-  );
-  await submit.click();
-  const response = await responsePromise;
-  expect(response.status()).toBe(200);
-  const result = await response.json();
-  expect(result.raw_score).toBe(0.0006554509184609327);
-  expect(result.action).toBe("approve");
-  expect(result.thresholds).toMatchObject({
-    review: 0.480177454887009,
-    decline: 0.9986654773731469,
+  const fraudRequests: string[] = [];
+  const errors: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  page.on("request", (request) => {
+    const path = new URL(request.url()).pathname;
+    if (path === "/health/ready" || path.startsWith("/v1/fraud/")) fraudRequests.push(path);
   });
-  expect(result.model_version).toBe("fraud-lightgbm-v1");
-  expect(result.policy_version).toBe("fraud-economic-policy-v1");
-  expect(result.model_sha256).toBe(
-    "a630186bef8b8cbd4e45b5c19277e4da54fbe984164051b75e0f887e8c162d0d",
-  );
-  expect(result.policy_sha256).toBe(
-    "1da15167250fa5ee880b403b789a1e4fbff5d9a9d5c4e7f83ccd1644e11f0cc4",
-  );
-  await expect(page.getByTestId("raw-score")).toHaveText(Number(result.raw_score).toPrecision(10));
-  await expect(page.locator(".returned-action strong")).toHaveText(result.action);
-  await expect(
-    page
-      .getByText("Not validated as a well-calibrated fraud probability.", { exact: false })
-      .first(),
-  ).toBeVisible();
-  await page.screenshot({ path: `${screenshotDir}/finguard-scoring-desktop.png`, fullPage: true });
-  await page.setViewportSize({ width: 390, height: 844 });
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
-    true,
-  );
-  await page.locator(".result-panel").scrollIntoViewIfNeeded();
-  await page.screenshot({ path: `${screenshotDir}/finguard-scoring-mobile.png` });
-  console.log("Genuine backend result:", JSON.stringify(result));
-  await page.getByRole("textbox", { name: /Amount/ }).fill("-1");
-  await expect(page.getByTestId("raw-score")).toHaveCount(0);
-  let unexpectedScoreCalls = 0;
-  page.on("request", (r) => {
-    if (r.url().endsWith("/v1/fraud/score")) unexpectedScoreCalls++;
-  });
-  await submit.click();
-  await expect(page.locator(".form-error")).toContainText("Nothing has been submitted");
-  expect(unexpectedScoreCalls).toBe(0);
+  for (const width of [1512, 390]) {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 1100 });
+    await page.goto("/scoring");
+    await expect(page.getByRole("heading", { name: "Verified historical evidence" })).toBeVisible();
+    await expect(
+      page.getByText("Interactive Fraud scoring is not currently", { exact: false }),
+    ).toBeVisible();
+    await expect(page.getByRole("button", { name: "Score transaction" })).toHaveCount(0);
+    await expect(page.getByTestId("raw-score")).toHaveCount(0);
+    await expect(page.getByText("API unavailable", { exact: true })).toHaveCount(0);
+    await expect(page.getByRole("region", { name: "Fraud dataset attribution" })).toBeVisible();
+    expect(
+      await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
+    ).toBe(true);
+    await page.screenshot({
+      path: `${screenshotDir}/finguard-fraud-research-${width}.png`,
+      fullPage: true,
+    });
+  }
+  expect(fraudRequests).toEqual([]);
+  expect(errors).toEqual([]);
 });
 
-test("unready artifacts disable inference without inventing a result", async ({ page }) => {
-  await page.route("**/health/ready", (route) =>
-    route.fulfill({
-      status: 503,
-      contentType: "application/json",
-      body: '{"detail":"Unavailable"}',
-    }),
+test("published attribution and method notes are accessible and preserve licensing limits", async ({
+  page,
+}) => {
+  await page.goto("/evaluation");
+  const attribution = page.getByRole("region", { name: "Fraud dataset attribution" });
+  await expect(attribution.getByRole("link", { name: "ODbL 1.0" })).toHaveAttribute(
+    "href",
+    "https://opendatacommons.org/licenses/odbl/1-0/",
   );
-  await page.goto("/scoring");
-  await expect(page.getByText("Scoring service unavailable", { exact: true })).toBeVisible();
-  await expect(page.getByRole("button", { name: "Score transaction", exact: true })).toBeDisabled();
-  await expect(page.getByTestId("raw-score")).toHaveCount(0);
-  await page.screenshot({ path: `${screenshotDir}/finguard-api-unavailable.png`, fullPage: true });
+  await expect(attribution.getByRole("link", { name: "DbCL 1.0" })).toHaveAttribute(
+    "href",
+    "https://opendatacommons.org/licenses/dbcl/1-0/",
+  );
+  const method = await page.request.get("/reports/fraud-methods.md");
+  expect(method.status()).toBe(200);
+  expect(await method.text()).toContain("not a declaration of licensing clearance");
+  const source = await page.request.get("/reports/attribution.md");
+  expect(source.status()).toBe(200);
+  expect(await source.text()).toContain("Worldline");
 });

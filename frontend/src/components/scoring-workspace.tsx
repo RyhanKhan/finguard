@@ -20,11 +20,21 @@ import {
   Trash2,
 } from "lucide-react";
 import { useApi } from "./api-provider";
+import { FraudResearchWorkspace } from "./fraud-research";
 import { Card, Note } from "./ui";
 import { api, ApiError, type ScoreResult } from "@/lib/api";
 import { emptyFeatures, exampleFeatures, FEATURES, validateFeatures } from "@/lib/features";
 
 export function ScoringWorkspace() {
+  const connection = useApi();
+  return connection.status === "not-enabled" ? (
+    <FraudResearchWorkspace />
+  ) : (
+    <InteractiveScoringWorkspace />
+  );
+}
+
+function InteractiveScoringWorkspace() {
   const connection = useApi();
   const [values, setValues] = useState(emptyFeatures);
   const [errors, setErrors] = useState<Record<string, string>>({});

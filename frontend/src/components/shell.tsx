@@ -18,13 +18,14 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useApi } from "./api-provider";
+import { FraudAvailability, FraudAttribution } from "./fraud-research";
 import { history } from "@/lib/history";
 import { creditPublished } from "@/lib/credit-published-results";
 import type { ReactNode } from "react";
 
 const navigation = [
   { href: "/", label: "Overview", icon: LayoutDashboard },
-  { href: "/scoring", label: "Live scoring", icon: ScanLine },
+  { href: "/scoring", label: "Fraud scoring", icon: ScanLine },
   { href: "/evaluation", label: "Model evaluation", icon: ChartNoAxesCombined },
   { href: "/economics", label: "Decision economics", icon: Scale },
   { href: "/credit", label: "Credit risk", icon: WalletCards },
@@ -101,6 +102,8 @@ export function Shell({ children }: { children: ReactNode }) {
             </span>
             {pathname.startsWith("/credit") ? (
               <span className="tag muted">Credit workspace</span>
+            ) : connection.status === "not-enabled" ? (
+              <span className="tag muted">Fraud research</span>
             ) : (
               <>
                 <div className={`api-status ${connection.status}`} role="status">
@@ -130,7 +133,11 @@ export function Shell({ children }: { children: ReactNode }) {
           </div>
         </header>
         <main id="main" tabIndex={-1}>
+          {!pathname.startsWith("/credit") && connection.status === "not-enabled" && (
+            <FraudAvailability />
+          )}
           {children}
+          {!pathname.startsWith("/credit") && <FraudAttribution />}
         </main>
         <footer className="page-footer">
           <span>

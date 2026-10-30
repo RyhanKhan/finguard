@@ -99,7 +99,7 @@ test("credit mobile layout, keyboard tabs and stale results", async ({ page }) =
   await page.goto("/credit");
   await expect(page.getByText("Credit API connected", { exact: true })).toBeVisible();
   await expect(
-    page.getByRole("navigation").getByRole("link", { name: "Live scoring", exact: true }),
+    page.getByRole("navigation").getByRole("link", { name: "Fraud scoring", exact: true }),
   ).toBeVisible();
   const overview = page.getByRole("tab", { name: "Overview", exact: true });
   await overview.focus();
@@ -122,7 +122,7 @@ test("credit mobile layout, keyboard tabs and stale results", async ({ page }) =
   );
 });
 
-test("unavailable credit does not disable fraud navigation or inference", async ({ page }) => {
+test("unavailable credit does not disable Fraud historical research", async ({ page }) => {
   await page.route("**/v1/credit/ready", (route) =>
     route.fulfill({ status: 503, contentType: "application/json", body: "{}" }),
   );
@@ -134,7 +134,8 @@ test("unavailable credit does not disable fraud navigation or inference", async 
   ).toBeDisabled();
   await page
     .getByRole("navigation")
-    .getByRole("link", { name: "Live scoring", exact: true })
+    .getByRole("link", { name: "Fraud scoring", exact: true })
     .click();
-  await expect(page.getByRole("button", { name: "Score transaction", exact: true })).toBeEnabled();
+  await expect(page.getByRole("heading", { name: "Verified historical evidence" })).toBeVisible();
+  await expect(page.getByTestId("raw-score")).toHaveCount(0);
 });

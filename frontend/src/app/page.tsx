@@ -23,7 +23,7 @@ export default function Overview() {
       <PageHeading
         eyebrow="THE FRAUD RESEARCH WORKSPACE"
         title="Intelligence you can inspect."
-        description="Explore the evidence. Score a transaction. Understand the decision."
+        description="Explore historical Fraud evidence and simulated decisions, then try the live Credit Risk workspace."
       >
         <HistoricalTag />
       </PageHeading>
@@ -42,12 +42,12 @@ export default function Overview() {
             A complete view of one fraud research workflow—from forward validation to a single
             held-out evaluation.
           </p>
-          <Link className="button primary" href="/scoring">
-            Score a transaction
+          <Link className="button primary" href="/evaluation">
+            Explore the fraud evaluation
             <ArrowRight size={16} />
           </Link>
-          <Link className="hero-secondary" href="/evaluation">
-            Explore the evaluation
+          <Link className="hero-secondary" href="/credit">
+            Try live Credit Risk
             <ArrowUpRight size={15} />
           </Link>
         </div>
@@ -78,7 +78,7 @@ export default function Overview() {
           </div>
           <div className="hero-footnote">
             <LockKeyhole size={13} />
-            Fixed policy · independent transaction scoring
+            Frozen policy · historical research replay
           </div>
         </div>
       </section>
@@ -204,9 +204,9 @@ export default function Overview() {
       </Card>
       <div className="bottom-callout">
         <Sparkles size={18} />
-        <span>Curious how the frozen pipeline responds?</span>
-        <Link href="/scoring">
-          Try the synthetic example
+        <span>See how model scores informed the frozen policy.</span>
+        <Link href="/economics">
+          Explore simulated economics
           <ArrowRight size={15} />
         </Link>
       </div>
