@@ -19,7 +19,11 @@ RUN python -m pip install --no-cache-dir --only-binary=:all: -r requirements-run
 COPY --chown=10001:10001 src/finguard_runtime/ ./src/finguard_runtime/
 COPY --chown=10001:10001 backend/__init__.py ./backend/__init__.py
 COPY --chown=10001:10001 backend/app/ ./backend/app/
-USER 10001:10001
+# Render runtime secret files require supplementary group 1000.
+RUN groupadd --gid 1000 render-secrets \
+    && usermod --append --groups render-secrets finguard
+# Omitting an explicit group preserves supplementary memberships at runtime.
+USER finguard
 EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
     CMD python -m backend.app.healthcheck
