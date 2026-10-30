@@ -1,10 +1,11 @@
 """Stage eight operator-provisioned secret files; no downloads, archives or requests."""
 
 import logging
+import os
+import stat
 from pathlib import Path
 import shutil
 from finguard_runtime import credit, fraud
-from finguard_runtime.integrity import read_regular
 
 logger = logging.getLogger(__name__)
 SECRET_FILES = {
@@ -23,6 +24,40 @@ SECRET_FILES = {
 }
 
 
+def _read_secret(source, name, limit=1024 * 1024):
+    """Adapt trusted provider links to bytes; staged bundles retain strict verification."""
+    if name not in {n for names in SECRET_FILES.values() for n in names.values()}:
+        raise ValueError("Unapproved secret filename")
+    root = source.resolve(strict=True)
+    relative = (root / name).resolve(strict=True).relative_to(root)
+    # Resolve Render's links within the provider root, then walk the resolved path
+    # by directory descriptors. O_NOFOLLOW on every component prevents a link
+    # substitution between resolution and opening from escaping that root.
+    directory_flags = os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW
+    directory = os.open(root, directory_flags)
+    try:
+        for part in relative.parts[:-1]:
+            child = os.open(part, directory_flags, dir_fd=directory)
+            os.close(directory)
+            directory = child
+        fd = os.open(
+            relative.name, os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK, dir_fd=directory
+        )
+        try:
+            info = os.fstat(fd)
+            if not stat.S_ISREG(info.st_mode) or info.st_nlink != 1 or info.st_size > limit:
+                raise ValueError("Unsafe secret target")
+            with os.fdopen(fd, "rb", closefd=False) as stream:
+                data = stream.read(limit + 1)
+            if len(data) > limit:
+                raise ValueError("Secret exceeds size limit")
+            return data
+        finally:
+            os.close(fd)
+    finally:
+        os.close(directory)
+
+
 def stage_secret_files(source, destination):
     """Only a fresh private destination is accepted. Each module verifies independently."""
     source, destination = Path(source), Path(destination)
@@ -35,8 +70,8 @@ def stage_secret_files(source, destination):
         try:
             target.mkdir(mode=0o700)
             for filename, secret in filenames.items():
-                # Fixed names, regular files/no links, bounded reads; native verifier remains unchanged.
-                data = read_regular(source / secret, 1024 * 1024)
+                # Only trusted in-directory provider links; native verifier remains unchanged.
+                data = _read_secret(source, secret)
                 with (target / filename).open("xb") as stream:
                     stream.write(data)
                 (target / filename).chmod(0o400)

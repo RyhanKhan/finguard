@@ -17,7 +17,7 @@
     "backend/app/healthcheck.py": "d93aaa620541b2a3d762742e1a06c18636e5c4951f7a8502d3feed9bd2e97d4b",
     "backend/app/launch.py": "0f2315f8b9987cf2218b7f73f9fcd9009a049d514a7f5b8c85ed07c1dddd39d4",
     "backend/app/main.py": "7f253775f03129f9402623b8711fa0d2d9eacf78d93818575f8c99a1c6e1e6d7",
-    "backend/app/provision.py": "f69b0a5d267b2a2dc88d47fe76184c7e33f65c8a2a49f351e8e8786930ee9547",
+    "backend/app/provision.py": "e35bedfb1bf6ed50e7dc89f6db8801a4baeefbc7516e4d40c1df686219f0e9f0",
     "backend/app/schemas.py": "acae09df7a3773bfc05ff5c79aa6641cb7eeb6141966e9ef3f467d293425f522",
     "backend/app/security.py": "56b90ea846f0437e1216807e5b97bb4331803ed26b4a7e5f6a6afd6b97410c72",
     "backend/app/settings.py": "f6483a1cf126ad20c5473ce61135c28d28d35f090b38d54f351ca60c28bc63b5",
@@ -399,6 +399,7 @@
     "tests/conftest.py": "8a914c62ecdb7801f834d1b02e8bbdac75161a21f88391ceb6987c15784a413d",
     "tests/test_portable.py": "da1268dda7a7db21d4335106f357a5edf5d7862ab76ca18efa6c161424b67319",
     "tests/test_public_inventory.py": "b8ecbd87f705ef84241ab34ce8c864130a9cfd3e1827d3b640f6efb88e8ece27",
+    "tests/test_secret_links.py": "9ef06f45b21aaed8b2830b9561b8357b440f380f38e0afc6ef27c1d7f35b84c3",
     "tests/test_security.py": "45af7c4afa5823789b612fe762fafb92d2dc433ed44e4a583b7ae0f58b3577b3"
   }
 }
